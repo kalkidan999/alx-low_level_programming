@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-char ch;
+char ch, q, e;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 if (ch == q || ch == e)
 {
-putchar(ch,' ');
+putchar(ch, ' ');
 putchar('\n');
 }
 }
