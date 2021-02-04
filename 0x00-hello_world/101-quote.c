@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+ * main 
+ *
+ * Return:1
+ */
 int main(void)
 {
 char ch;
