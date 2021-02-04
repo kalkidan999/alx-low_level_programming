@@ -1,13 +1,12 @@
 #include <stdio.h>
+#define fun main
 /*
  * main 
  *
  * Return:1
  */
-int main(void)
+int func(void)
 {
-char ch;
-ch = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-putc(ch, stdout);
+print("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 return (1);
 }
