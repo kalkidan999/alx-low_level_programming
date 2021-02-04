@@ -4,7 +4,7 @@
 * main - random numbers
 */
 /**
-* Return: is posotive or is negative
+* Return: 1 if the number is positive. 0 otherwise
 */
 int main(void)
 {
