@@ -3,10 +3,13 @@
 * main - single digits
 * Return: last digit
 */
-int main(void){
+int main(void)
+{
 int i;
-for (i = 0; i <= 9; i % 10)
-i++;
-putchar("%d\n", i);
+for (i = 0; i <= 9; i++)
+{
+putchar(i + '0');
+}
+putchar('\n');
 return (0);
 }
