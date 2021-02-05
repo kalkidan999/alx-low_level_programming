@@ -6,10 +6,16 @@
 */
 int main(void)
 {
-char hex = 0123456789;
-char hex1 = abcdef;
-putchar(hex + '0');
-putchar(hex1);
+int i;
+char y;
+for (i = 0; i <=9; i++)
+{
+putchar(i);
+}
+for (y = 'a'; y<='f'; y++)
+{
+putchar(y);
+}
 putchar('\n');
 return (0);
 }
