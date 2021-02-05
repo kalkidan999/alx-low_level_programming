@@ -2,12 +2,12 @@
 /**
 * main - random numbers
 * Return: last digit
-* @arr[]- arr
-* @data[] -data
-* @start -start
-* @end - end
-* @index - index
-* @r - r
+* @arr[]: arr
+* @data[]: data
+* @start: start
+* @end: end
+* @index: index
+* @r: r
 * combinationUtil- combinationUtil
 * printCombination- printcombinationUtil
 */
