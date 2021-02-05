@@ -2,7 +2,6 @@
 /**
 * main - random numbers
 * combinationUtil - combinationUtil
-* printCombination - printCombination
 * Return: last digit
 * @arr: arr
 * @data: data
@@ -10,7 +9,10 @@
 * @end: end
 * @index: index
 * @r: r
+* printCombination - printCombination
+* @arr: arr
 * @n: n
+* @r: r
 */
 void combinationUtil(int arr[], int data[], int start,
 int end, int index, int r);
