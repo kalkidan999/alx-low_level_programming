@@ -13,7 +13,7 @@ for (y = '0'; y <= '9'; y++)
 {
 putchar(x);
 putchar(y);
-if (!(x == '9' && y == '9' && x <y))
+if (!(x == '9' && y == '9' && x > y))
 {
 putchar(',');
 putchar(' ');
