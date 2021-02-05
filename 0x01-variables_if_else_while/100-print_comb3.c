@@ -11,7 +11,6 @@
 * @r: r
 * printCombination - printCombination
 * @arr: arr
-* @n: n
 * @r: r
 */
 void combinationUtil(int arr[], int data[], int start,
