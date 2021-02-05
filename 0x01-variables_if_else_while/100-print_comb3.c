@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
 * main - random numbers
+* combinationUtil - combinationUtil
+* printCombination - printCombination
 * Return: last digit
 * @arr: arr
 * @data: data
@@ -9,8 +11,6 @@
 * @index: index
 * @r: r
 * @n: n
-* combinationUtil - combinationUtil
-* printCombination - printcombinationUtil
 */
 void combinationUtil(int arr[], int data[], int start,
 int end, int index, int r);
