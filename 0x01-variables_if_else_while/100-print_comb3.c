@@ -2,14 +2,14 @@
 /**
 * main - random numbers
 * Return: last digit
-* @arr[]: arr
-* @data[]: data
+* @arr: arr
+* @data: data
 * @start: start
 * @end: end
 * @index: index
 * @r: r
-* combinationUtil- combinationUtil
-* printCombination- printcombinationUtil
+* combinationUtil - combinationUtil
+* printCombination - printcombinationUtil
 */
 void combinationUtil(int arr[], int data[], int start,
 int end, int index, int r);
