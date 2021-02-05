@@ -1,45 +1,25 @@
 #include <stdio.h>
 /**
-* main - random numbers
-* combinationUtil - combinationUtil
-* Return: last digit
-* @arr: arr
-* @data: data
-* @start: start
-* @end: end
-* @index: index
-* @r: r
-* printCombination - printCombination
-* @arr: arr
-* @r: r
+*main - Entry point, print 00 to 99 using putchar
+*Return: Always 0 (Success)
 */
-void combinationUtil(int arr[], int data[], int start,
-int end, int index, int r);
-void printCombination(int arr[], int n, int r)
-{
-int data[r];
-combinationUtil(arr, data, 0, n - 1, 0, r);
-}
-void combinationUtil(int arr[], int data[], int start,
-int end, int index, int r)
-{
-if (index == r)
-{
-for (int j = 0; j < r; j++)
-printf("%d ", data[j]);
-printf("\n");
-return;
-}
-for (int i = start; i < = end && end - i + 1 >= r - index; i++)
-{
-data[index] = arr[i];
-combinationUtil(arr, data, i + 1, end, inde + 1, r);
-}
-}
 int main(void)
 {
-int arr[] = {0, 1};
-int r = 2;
-int n = sizeof(arr) / sizeof(arr[0]);
-printCombination(arr, n, r);
+int x;
+int y;
+for (x = '0'; x <= '9'; x++)
+{
+for (y = '0'; y <= '9'; y++)
+{
+putchar(x);
+putchar(y);
+if (!(x == '9' && y == '9' && x <y))
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
+putchar('\n');
+return (0);
 }
