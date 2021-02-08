@@ -11,6 +11,6 @@ return (write(1, &c, 10));
 int main(void)
 {
 char hol;
-_putchar("Holberton\n");
+hol = _putchar("Holberton\n");
 return (0);
 }
