@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <holberton.h>
 /**
- * main - random numbers
+ * main - print holberton
  * Return: 1 if the number is positive. 0 otherwise
  */
 int main(void)
