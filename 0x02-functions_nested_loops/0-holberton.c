@@ -4,8 +4,13 @@
  * main - print holberton
  * Return: 1 if the number is positive. 0 otherwise
  */
+int _putchar(char c)
+{
+return (write(1, &c, 10));
+}
 int main(void)
 {
-write(1, "Holberton\n", 10);
+char hol;
+_putchar("Holberton\n");
 return (0);
 }
