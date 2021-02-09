@@ -1,23 +1,16 @@
-#include <holberton.h>
+#include "holberton.h"
+
 /**
-* positive_or_negative - random numbers
-*@i: integer
-* Return: 1 if the number is positive. 0 otherwise
+* main - tests function that prints if integer is positive or negative
+* Return: 0
 */
-void positive_or_negative(int i)
+
+int main(void)
 {
-int n;
-if (n > 0)
-{
-printf("%d is positive\n", n);
-}
-else if (n == 0)
-{
-printf("%d is zero\n", n);
-}
-else
-{
-printf("%d is negative\n", n);
-}
-return (0);
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
