@@ -16,7 +16,7 @@ for (MinuteTen = '0'; MinuteTen <= '5'; MinuteTen++)
 {
 for (Minuteone = '0'; Minuteone <= '9'; Minuteone++)
 {
-if (MinuteTen == 5 && Minuteone == 9)
+if (MinuteTen == 5 && Minuteone == 9 && HourOne == 3)
 break;
 else
 {
