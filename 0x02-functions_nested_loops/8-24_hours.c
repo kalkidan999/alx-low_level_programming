@@ -25,10 +25,10 @@ _putchar (HourOne);
 _putchar (':');
 _putchar (MinuteTen);
 _putchar (Minuteone);
-}
-}
-}
-}
-}
 _putchar('\n');
+}
+}
+}
+}
+}
 }
