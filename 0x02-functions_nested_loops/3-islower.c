@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
 /**
  * _islower - check the code for Holberton School students.
  * Return: Always 0
