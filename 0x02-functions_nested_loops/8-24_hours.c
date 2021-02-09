@@ -19,10 +19,10 @@ for (MinuteTen = '0'; MinuteTen <= '5'; MinuteTen++)/* prints minutes ten digit*
 {
 for (Minuteone = '0'; Minuteone <= '9'; Minuteone++)/* prints minutes one digit*/
 {
-  if (MinuteTen == 5 && Minuteone == 9)
-    break;
- else
- {
+if (MinuteTen == 5 && Minuteone == 9)
+break;
+else
+{
 _putchar (HourTen);
 _putchar (HourOne);
 _putchar (':');
