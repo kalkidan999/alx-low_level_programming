@@ -18,17 +18,14 @@ for (Minuteone = '0'; Minuteone <= '9'; Minuteone++)
 {
 if (MinuteTen == 5 && Minuteone == 9)
 break;
-else
-{
-_putchar (HourTen);
-if (HourTen == 3 && HourOne == 4)
+else if (HourTen == 3 && HourOne == 4)
 continue;
+_putchar (HourTen);
 _putchar (HourOne);
 _putchar (':');
 _putchar (MinuteTen);
 _putchar (Minuteone);
 _putchar('\n');
-}
 }
 }
 }
