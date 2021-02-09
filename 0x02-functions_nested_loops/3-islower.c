@@ -2,17 +2,17 @@
 #include <ctype.h>
 /**
  * _islower - check the code for Holberton School students.
- * Return: Always 0.
- * @c: lowwrcase
+ * Return: Always 0
+ * @c: c file
  */
 int _islower(int c)
 {
 if (islower(c))
 {
-return(1);
+return (1);
 }
 else
 {
-return(0);
+return (0);
 }
 }
