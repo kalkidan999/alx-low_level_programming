@@ -12,7 +12,7 @@ for (r = 0; r <= 9; r++)
 for (col = 0; col <= 9; col++)
 {
 product = (r * col);
-if (column == 0)
+if (col == 0)
 {
 _putchar('0' + product);
 }
