@@ -10,7 +10,7 @@ int MinuteTen;
 int Minuteone;
 for (HourTen = '0'; HourTen <= '2'; HourTen++)
 {
-for (HourOne = '0'; HourOne <= '9'; HourOne++)
+for (HourOne = '0'; HourOne <= '3'; HourOne++)
 {
 for (MinuteTen = '0'; MinuteTen <= '5'; MinuteTen++)
 {
