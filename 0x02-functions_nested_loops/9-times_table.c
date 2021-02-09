@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
-* times_table - calculates time table
-*  its mine damnit
+* times_table - time table
 *
 * Time table.
 */
