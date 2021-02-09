@@ -21,7 +21,7 @@ break;
 else
 {
 _putchar (HourTen);
-if (HourTen > 2 && HourOne >3)
+if (HourTen > 2 && HourOne > 3)
 continue;
 _putchar (HourOne);
 _putchar (':');
