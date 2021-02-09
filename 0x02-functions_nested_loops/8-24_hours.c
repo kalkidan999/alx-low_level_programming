@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * jack_bauer - timing
- */
+* jack_bauer - timing
+*/
 void jack_bauer(void)
 {
 int HourTen = '0';
