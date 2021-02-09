@@ -4,11 +4,11 @@
 */
 void jack_bauer(void)
 {
-int HourTen = '0';
-int HourOne = '0';
-int MinuteTen = '0';
-int Minuteone = '0';
-for (HourTen = '0'; HourTen <= '9'; HourTen++)/
+int HourTen;
+int HourOne;
+int MinuteTen;
+int Minuteone;
+for (HourTen = '0'; HourTen <= '9'; HourTen++)
 {
 for (HourOne = '0'; HourOne <= '9'; HourOne++)
 {
