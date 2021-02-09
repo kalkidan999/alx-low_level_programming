@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * print_alphabet_x10 - check the code for Holberton School students.
- * Return: Always 0.
+ * print_alphabet_x10 - check the code for Holberton School students
+ * @i: declaring i
+ * @char: declaring char
  */
 void print_alphabet_x10(void)
 {
