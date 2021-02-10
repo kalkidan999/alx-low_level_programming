@@ -4,26 +4,23 @@
 * print_times_table - printing
 * @n: n
 */
-void print_times_table(int n)
+n=5;
+int row;
+int col;
+int table [row][col];
+int i,j;
+for (i = 0; i<=15; i++)
 {
-int i;
-if (n < 15)
+for (j=0; j<=15; j++)
 {
-for (i = 0; i <= 15; i++)
-{
-if (i != 15)
-printf("%d, ", i);
-else
-printf("%d", i);
+table [i][j]= i*j;
 }
-printf("\n");
 }
-else if (n > 15 || n < 0)
-break;
-}
-else
+for(i = 0; i<=15; i++)
 {
-printf("%d", i);
-printf("\n");
+for(j=0; j<=15; j++)
+{
+printf("%d%",table[i][j]);
+}
 }
 }
