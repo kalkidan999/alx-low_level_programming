@@ -18,12 +18,24 @@ _putchar(' ');
 }
 else if ((i % 5) == 0)
 {
-_putchar('Buzz ');
+_putchar('B');
+_putchar('u');
+_putchar('z');
+_putchar('z');
+_putchar(' ');
 }
 else if ((i % 15) == 0)
 {
-_putchar('Fizz');
-_putchar('Buzz ');
+_putchar('F');
+_putchar('i');
+_putchar('z');
+_putchar('z');
+_putchar('B');
+_putchar('u');
+_putchar('z');
+_putchar('z');
+_putchar(' ');
+_putchar(' ');
 }
 else
 {
