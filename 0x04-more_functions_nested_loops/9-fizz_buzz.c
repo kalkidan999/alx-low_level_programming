@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main -checks 
-* Return: 1 for digit 
+* main -checks
+* Return: 1 for digit
 */
 int main(void)
 {
