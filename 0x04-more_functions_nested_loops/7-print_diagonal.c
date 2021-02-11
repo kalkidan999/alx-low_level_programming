@@ -13,7 +13,7 @@ for(j = 0; j <= n; j++)
 {
 if(i == j)
 {
-_putchar('\\ ');
+_putchar('\\\n');
 _putchar('\n');
 }
 else if (n <= 0)
