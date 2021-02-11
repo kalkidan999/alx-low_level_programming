@@ -10,12 +10,17 @@ int i = 0;
 int j;
 j = n;
 if(j < 0)
+{
 _putchar('\n');
+}
+else
+{
 for(i = n; i < n; i++)
 {
 _putchar(' ');
 _putchar('\\');
 _putchar('\n');
+}
 }
 return;
 }        
