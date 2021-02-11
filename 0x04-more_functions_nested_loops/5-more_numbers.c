@@ -3,7 +3,7 @@
  * print_most_numbers - check the code for Holberton School students
  * Return: success
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int i;
 int j;
