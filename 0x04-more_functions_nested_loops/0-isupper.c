@@ -10,9 +10,12 @@ for (ch = 'A' ; ch <= 'Z' ; ch++)
 {
 _putchar(ch);
 if (c == ch)
+{
 return (1);
-else
-return (0);
-_putchar('\n');
 }
+else
+{
+return (0);
+}
+_putchar('\n');
 }
