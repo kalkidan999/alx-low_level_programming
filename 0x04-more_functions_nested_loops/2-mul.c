@@ -8,4 +8,6 @@
 int mul(int a, int b)
 {
 _putchar(a * b);
+_putchar('/n');
+return (0);
 }
