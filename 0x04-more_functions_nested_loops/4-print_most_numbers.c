@@ -1,11 +1,9 @@
 #include "holberton.h"
 /**
- * print_most_numbers - check the code for Holberton School students.
- * @a: character a
- * @b: character b
+ * print_most_numbers - check the code for Holberton School students
  * Return: success
  */
-void print_most_numbers(void)(int a, int b)
+void print_most_numbers(void)
 {
 int i;
 for (i = 0; i <= 9; i++)
