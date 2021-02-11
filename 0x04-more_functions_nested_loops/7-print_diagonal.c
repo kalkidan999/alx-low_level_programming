@@ -12,15 +12,9 @@ for(i = n; i < n; i++)
 {
 for(j = n; j < n; j++)
 {
-if(n <= 0)
-{
-_putchar('\n');
-}
-else
-{
+if(n > 0)
 _putchar('\\');
 _putchar(' ');
-}
 }
 _putchar('\n');
 }
