@@ -10,7 +10,7 @@ for (i = 1; i <= 100; i++)
 {
 if ((i % 3) == 0)
 {
-_putchar('Fizz ');
+_putchar('Fizz');
 _putchar(' ');
 }
 else if ((i % 5) == 0)
