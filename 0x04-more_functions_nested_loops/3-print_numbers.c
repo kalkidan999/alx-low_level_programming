@@ -3,7 +3,6 @@
  * mul - check the code for Holberton School students.
  * @a: character a
  * @b: character b
- * Return: success
  */
 void print_numbers(void)
 {
