@@ -1,7 +1,9 @@
-#include "holberton.h"
+#include <stdio.h>
 /**
-* main -checks
-* Return: 1 for digit
+* main -checks for upper case
+*
+* @void: return nothing
+* Return: 1 for digit and 0 for else
 */
 int main(void)
 {
@@ -10,38 +12,21 @@ for (i = 1; i <= 100; i++)
 {
 if ((i % 3) == 0)
 {
-_putchar('F');
-_putchar('i');
-_putchar('z');
-_putchar('z');
-_putchar(' ');
+printf("Fizz");
 }
 else if ((i % 5) == 0)
 {
-_putchar('B');
-_putchar('u');
-_putchar('z');
-_putchar('z');
-_putchar(' ');
+printf("Buzz");
 }
-else if ((i % 15) == 0)
+else if ((i % 3) == 0 && (i % 5) == 0)
 {
-_putchar('F');
-_putchar('i');
-_putchar('z');
-_putchar('z');
-_putchar('B');
-_putchar('u');
-_putchar('z');
-_putchar('z');
-_putchar(' ');
-_putchar(' ');
+printf("FizzBuzz");
 }
 else
 {
-_putchar('0' + i);
+printf("%d ", i);
 }
 }
-_putchar('\n');
+printf("\n");
 return (0);
 }
