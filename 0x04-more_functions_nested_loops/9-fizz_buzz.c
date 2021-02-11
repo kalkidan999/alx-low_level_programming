@@ -18,12 +18,9 @@ else if ((i % 5) == 0)
 {
 printf("Buzz ");
 }
-else
-{
-While ((i % 3) && (i % 5) == 0)
+else if (while ((i % 3) && (i % 5) == 0))
 {
 printf("FizzBuzz ");
-}
 }
 else
 {
