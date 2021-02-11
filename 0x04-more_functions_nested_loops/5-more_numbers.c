@@ -9,7 +9,7 @@ int i = 0;
 int j;
 while (i <= 10)
 {
-for (j = 48; j <= E; j++)
+for (j = 48; j <= 63; j++)
 {
 _putchar('0' + j);
 }
