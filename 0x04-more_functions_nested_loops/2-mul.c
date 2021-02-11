@@ -7,7 +7,8 @@
  */
 int mul(int a, int b)
 {
-_putchar(a * b);
+int mult = a * b;
+_putchar('mult');
 _putchar('\n');
 return (0);
 }
