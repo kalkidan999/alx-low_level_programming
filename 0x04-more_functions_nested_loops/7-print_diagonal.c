@@ -15,7 +15,7 @@ if(i==j)
 _putchar('\\');
 else if (n < 0)
 {
-_putchar('\n);
+_putchar('\n');
 }
 }
 }
