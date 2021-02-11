@@ -3,7 +3,7 @@
 * print_square -checks for upper case
 *
 * @size: size
-* Return: 1 
+* Return: 1
 */
 void print_square(int size)
 {
