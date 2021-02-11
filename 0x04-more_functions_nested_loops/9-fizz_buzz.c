@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <holberton.h>
 /**
 * main -checks
 * Return: 1 for digit
@@ -10,22 +10,22 @@ for (i = 1; i <= 100; i++)
 {
 if ((i % 3) == 0)
 {
-printf("Fizz ");
+_putchar("Fizz ");
 }
 else if ((i % 5) == 0)
 {
-printf("Buzz ");
+_putchar('Buzz ');
 }
-else if ((i % 3 && i % 5) == 0)
+else if ((i % 15) == 0)
 {
-printf("Fizz");
-printf("Buzz ");
+_putchar('Fizz');
+_putchar('Buzz ');
 }
 else
 {
-printf("%d ", i);
+_putchar('0' + i);
 }
 }
-printf("\n");
+_putchar('\n');
 return (0);
 }
