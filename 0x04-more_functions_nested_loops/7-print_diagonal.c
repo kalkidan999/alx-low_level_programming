@@ -16,9 +16,9 @@ if(i == j)
 for(z = 0; z <= n; z++)
 {
 _putchar(' ');
-}
 _putchar('\\');
 _putchar('\n');
+}
 }
 else if (n <= 0)
 {
