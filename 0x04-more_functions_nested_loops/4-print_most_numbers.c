@@ -10,9 +10,9 @@ for (i = 0; i <= 9; i++)
 {
 if (i == 2 && i == 4)
 {
-break;
-}
 _putchar('0' + i);
+continue;
+}
 }
 _putchar('\n');
 return;
