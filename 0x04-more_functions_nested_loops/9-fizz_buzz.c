@@ -20,7 +20,7 @@ printf("Buzz ");
 }
 else
 {
-While ((i % 3) && (i % 5 == 0)
+While ((i % 3) && (i % 5 == 0))
 {
 printf("FizzBuzz ");
 }
