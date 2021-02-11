@@ -13,7 +13,8 @@ for(j=1;j<=n;j++)
 {
 if(i==j)
 _putchar('\\');
-else if (n < 0)
+_putchar('\n');
+else if (n <= 0)
 {
 _putchar('\n');
 }
