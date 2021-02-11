@@ -13,8 +13,8 @@ for (j = 0; j <= 14; j++)
 {
 _putchar('0' + j);
 }
+_putchar('\n');
 _putchar('0' + i);
 }
-_putchar('\n');
 return;
 }
