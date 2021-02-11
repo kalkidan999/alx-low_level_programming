@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _isupper - check the code for Holberton School students.
- * Return: Always 0.
+ * @c: characters
  */
 int _isupper(int c)
 {
