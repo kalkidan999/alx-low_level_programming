@@ -1,8 +1,6 @@
 #include "holberton.h"
 /**
- * mul - check the code for Holberton School students.
- * @a: character a
- * @b: character b
+ * print_numbers - check the code for Holberton School students.
  * Return: sucsess
  */
 void print_numbers(void)
