@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_most_numbers - check the code for Holberton School students
+ * more_numbers - check the code for Holberton School students
  * Return: success
  */
 void more_numbers(void)
