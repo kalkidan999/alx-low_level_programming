@@ -18,7 +18,8 @@ printf("Buzz ");
 }
 else if ((i % 3 && i % 5) == 0)
 {
-printf("FizzBuzz ");
+printf("Fizz");
+printf("Buzz ");
 }
 else
 {
