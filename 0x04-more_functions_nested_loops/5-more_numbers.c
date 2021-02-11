@@ -17,7 +17,7 @@ if (i > '0')
 _putchar('0' + i);
 _putchar('0' + i);
 }
-k = '4';
+k = 4;
 }
 _putchar('\n');
 }
