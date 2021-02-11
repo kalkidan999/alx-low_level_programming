@@ -2,8 +2,11 @@
 /**
  * _isupper - check the code for Holberton School students.
  * @c: characters
+ * Return: 1 and 0
  */
 int _isupper(int c)
 {
-return (c >= 65 && c <= 90);
+if (c >= 65 && c <= 90)
+return (1);
+return (0);
 }
