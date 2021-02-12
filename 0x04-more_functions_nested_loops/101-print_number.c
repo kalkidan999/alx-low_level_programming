@@ -15,11 +15,11 @@ if (n / 10 != 0 && n < 100)
 {
 _putchar('0' + n / 10);
 }
-else
+else if (n / 10 != 0 && n < 1000)
 {
 _putchar('0' + n / 100);
 }
-else
+else if (n / 10 != 0 && n < 10000)
 {
 _putchar('0' + n / 1000);
 }
