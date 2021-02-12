@@ -14,6 +14,8 @@ n = -n;
 if (n / 10 != 0)
 {
 _putchar('0' + n / 10);
+_putchar('0' + n / 100);
+_putchar('0' + n / 1000);
 }
 _putchar(n % 10 + '0');
 }
