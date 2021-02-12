@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
- * print_number - check the code for Holberton School students
- * 
+ * print_number - check numbers
  * @n: input
  * Return: success
  */
