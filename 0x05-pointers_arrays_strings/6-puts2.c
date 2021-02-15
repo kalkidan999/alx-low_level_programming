@@ -1,26 +1,21 @@
 #include "holberton.h"
 /**
-* rev_string -change value using the pointer address
+* puts -change value using the pointer address
 *
-*@s: stores the input
+*@str: stores the input
 */
-void rev_string(char *s)
+void puts2(char *str)
 {
-char revstr[100];
-char *rvptr = revstr;
-int i = -1;
-while(*s)
+int i, c = 0;
+char s[50] = "";
+for (i = 0; *(str + i) != '\0'; i++)
+{ 
+c++;
+} 
+for (i = 0; i <= c; i += 2)
 {
-s++;
-i++;
-}
-while(i >= 0)
-{
-s--;
-*rvptr = *s;
-_putchar(*rvptr);
-rvptr++;
---i;
+_putchar(str[i]);
+s[i/2]=str[i];
 }
 _putchar('\n');
 }
