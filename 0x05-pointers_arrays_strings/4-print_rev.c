@@ -6,16 +6,13 @@
  */
 void print_rev(char *s)
 {
-char *revPtr;
 char temp;
 int length = -1;
-while (*s != '\0')
+while (length >= 0)
 {
 temp = *s;
 _putchar(temp);
-s--;
-*revPtr = *s;
-revPtr++;
+s++;
 --length;
 }
 _putchar('\n');
