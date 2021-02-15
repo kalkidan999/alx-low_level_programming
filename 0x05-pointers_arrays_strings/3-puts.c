@@ -11,5 +11,4 @@ int n = s;
 while (*n != '\0')
 count++;
 s++;
-return count;
 }
