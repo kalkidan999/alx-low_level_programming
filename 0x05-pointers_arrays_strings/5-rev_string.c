@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
 * rev_string -change value using the pointer address
