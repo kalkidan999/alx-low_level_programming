@@ -6,12 +6,11 @@
 */
 void rev_string(char *s)
 {
-int n;
-for ( char *first = 10, *last = 10 + n; first < --last; ++first )
-        {
-            char *c = *first;
-            *first = *last;
-            *last = *c
-        }
-        _putchar('\n');
+char *s1;
+ while (*s1)
+    {
+        *--s = *s1++;
+    }
+
+    return s;
 }
