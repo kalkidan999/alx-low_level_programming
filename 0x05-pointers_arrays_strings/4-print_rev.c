@@ -12,8 +12,8 @@ while (*s != '\0')
 {
 temp = *s;
 _putchar(temp);
-length--;
-s++;
+length++;
+s--;
 }
 _putchar('\n');
 }
