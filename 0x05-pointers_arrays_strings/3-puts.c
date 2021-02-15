@@ -6,13 +6,8 @@
  */
 void _puts(char *str)
 {
-char chrString[];
-chrString = *str;
-while (*str != '\0')
-{
-*chrString++ = *str++;
-}
-_putchar('chrString');
-_putchar('\0');
+int i, j = strlen(str);
+for(i = 0; i < j; i++)
+_putchar(*str++);
 return (0);
 }
