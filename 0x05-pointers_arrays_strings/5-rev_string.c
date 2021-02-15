@@ -15,6 +15,5 @@ for (i = 0; *(s + i) != '\0'; i++)
     for (i = c - 1; i >= 0; i--)
 {
    printf("%c", *(s + i));
-        printf("/n");
 }
 }
