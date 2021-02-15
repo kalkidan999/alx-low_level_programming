@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
 * *_strcpy -change value using the pointer address
 *
@@ -14,5 +13,4 @@ while(*src)
 src++;
 dest++;
 }    
-*dest = '\0';
 }
