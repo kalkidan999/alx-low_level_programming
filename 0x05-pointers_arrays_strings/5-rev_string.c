@@ -11,7 +11,7 @@ int length, c;
     char *begin, *end, temp;
     length = strlen(s);
     begin  = s;
-    end    = s;
+    end    = s + length;
  
     
     for (c = 0; c < length / 2; c++) 
