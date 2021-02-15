@@ -6,10 +6,21 @@
 */
 void rev_string(char *s)
 {
-char *s1[10];
- while (*s)
-    {
-        *--s = *s1[10]--;
+int length, c;
+ char *begin, *end, temp;
+    length = 10;
+    begin  = s;
+    end    = s;
+ 
+    for (c = 0; c < length - 1; c++)
+        end++;
+ 
+    for (c = 0; c < length/2; c++) {        
+        temp   = *end;
+        *end   = *begin;
+        *begin = temp;
+ 
+        begin++;
+        end--;
     }
-
-}
+}}
