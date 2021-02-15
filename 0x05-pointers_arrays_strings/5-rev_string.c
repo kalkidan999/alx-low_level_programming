@@ -6,13 +6,13 @@
 */
 void rev_string(char *s)
 {
-int i;
+int i, c;
 for (i = 0; *(s + i) != '\0'; i++)
 {
     c++;
 }
     for (i = c - 1; i >= 0-; i--)
 {
-   printf(@%c@, *(s + i));
+   printf("%c", *(s + i));
 }
 }
