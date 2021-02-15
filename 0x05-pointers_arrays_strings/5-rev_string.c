@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include<string.h>
 /**
 * rev_string -change value using the pointer address
 *
@@ -6,13 +7,14 @@
 */
 void rev_string(char *s)
 {
-int c;
+int length, c;
     char *begin, *end, temp;
+    length = strlen(s);
     begin  = s;
     end    = s;
  
     
-    for (c = 0; c <= 10 / 2; c++) {        
+    for (c = 0; c < length / 2; c++) {        
         temp   = *end;
         *end   = *begin;
         *begin = temp;
