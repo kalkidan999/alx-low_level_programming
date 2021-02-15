@@ -18,6 +18,6 @@ rvptr++;
 --i;
 temp = *rvptr
 }
-*rvptr='\0';
 _putchar(temp);
+_putchar('\n');
 }
