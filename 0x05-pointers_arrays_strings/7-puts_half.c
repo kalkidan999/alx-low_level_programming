@@ -13,11 +13,9 @@ c++;
 }
 int n;
 n = (c - 1) / 2;
-int m;
-m = c / 2;
 if ((c / 2) == 0)
 {
-for (i = m; i <= c; i ++)
+for (i = c / 2 ; i <= c; i ++)
 {
 _putchar(str[i]);
 }
