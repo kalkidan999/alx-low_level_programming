@@ -13,14 +13,14 @@ int length, c;
     end    = s;
  
     for (c = 0; c < length - 1; c++)
-        end++;
+        *s++;
  
     for (c = 0; c < length/2; c++) {        
         temp   = *end;
         *end   = *begin;
         *begin = temp;
  
-        begin++;
-        end--;
+        *s++;
+        *s--;
     }
 }
