@@ -16,7 +16,7 @@ s--;
 *rvptr = *s;
 rvptr++;
 --i;
-temp = *rvptr
+temp = *rvptr;
 }
 _putchar(temp);
 _putchar('\n');
