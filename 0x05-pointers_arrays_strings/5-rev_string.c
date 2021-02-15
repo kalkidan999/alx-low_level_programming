@@ -7,14 +7,16 @@
 void rev_string(char *s)
 {
 int length, c;
- char temp, begin;
-    length = 10;
-     *s = begin;
-     char *end = s;
-       for (c = 0; c < length; c++) {        
-        temp = *end;
-        *end = *begin;
+    char *begin, *end, temp;
+    begin  = s;
+    end    = s;
+ 
+    
+    for (c = 0; c <= 10; c++) {        
+        temp   = *end;
+        *end   = *begin;
         *begin = temp;
+ 
         begin++;
         end--;
     }
