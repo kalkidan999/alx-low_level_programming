@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 * puts -change value using the pointer address
 *
@@ -18,4 +19,5 @@ _putchar(str[i]);
 s[i/2]=str[i];
 }
 _putchar('\n');
+printf("\n\n2nd option\n%s", s);
 }
