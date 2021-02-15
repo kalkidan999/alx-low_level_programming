@@ -7,15 +7,12 @@
 void _puts(char *str)
 {
 char chrString[];
-char chrNewStr[];
-char *chrNewPtr;
-str = chrString;
-chrNewPtr = chrNewStr;
+chrString = *str;
 while (*str != '\0')
 {
-*chrNewPtr++ = *str++; // copies character by character to new pointer
+*chrString++ = *str++;
 }
-_putchar(chrNewStr);
-*chrNewPtr = '\0';
+_putchar('chrString');
+_putchar('\0');
 return (0);
 }
