@@ -9,13 +9,12 @@ void rev_string(char *s)
 int length, c;
  char temp;
     length = 10;
-     char *begin  = s;
-     char *end    = s;
+     char *begin = s;
+     char *end = s;
        for (c = 0; c < length; c++) {        
-        temp   = *end;
-        *end   = *begin;
+        temp = *end;
+        *end = *begin;
         *begin = temp;
- 
         begin++;
         end--;
     }
