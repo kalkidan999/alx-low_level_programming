@@ -12,5 +12,4 @@ char *s1;
         *--s = *s1++;
     }
 
-    return s;
 }
