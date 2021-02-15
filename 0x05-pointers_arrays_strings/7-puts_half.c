@@ -12,7 +12,7 @@ for (i = 0; *(str + i) != '\0'; i++)
 { 
 c++;
 } 
-if ((c / 2) = 0)
+if ((c / 2) == 0)
 {
 for (i = 0; i <= c; i ++)
 {
@@ -24,6 +24,7 @@ else
 for (i = 0; i <= n; i ++)
 {
 _putchar(str[i + 5]);
+}
 }
 _putchar('\n');
 }
