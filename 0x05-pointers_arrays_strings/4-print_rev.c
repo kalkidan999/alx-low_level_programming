@@ -6,10 +6,10 @@
  */
 void print_rev(char *s)
 {
- char str[50];
-    char revStr[50];
+ char str;
+
 str = *s;
-    char *revPtr = revStr;
+    char *revPtr;
 
     int len = -1;
 
@@ -28,7 +28,6 @@ str = *s;
       --len;
     }
 
-     *revPtr='\0';
-     _putchar(revStr);
+     _putchar(revPtr);
  
 }
