@@ -13,9 +13,5 @@ for(i=0;i<n;i++)
 {
 printf("%d ", a[i]);
 } 
-for(i=0;i<n;i++)
-{
-printf(",");
-} 
 printf("\n");
 }
