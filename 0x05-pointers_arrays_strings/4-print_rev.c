@@ -7,17 +7,18 @@
  */
 void print_rev(char *s)
 {
-char *rvptr;
-char temp;
-int i = -1;
+char revstr[50];
+char *s = str1;
+char *rvptr = revstr;
+int i=-1;
 while (i >= 0)
 {
 s--;
 *rvptr = *s;
 rvptr++;
 --i;
-temp = *rvptr;
 }
-_putchar(temp);
-_putchar('\n');
+*rvptr='\0';
+_putchar(revstr);
+return (0);
 }
