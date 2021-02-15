@@ -8,7 +8,6 @@
 void print_rev(char *s)
 {
 char revstr[50];
-char *s = str1;
 char *rvptr = revstr;
 int i=-1;
 while (i >= 0)
