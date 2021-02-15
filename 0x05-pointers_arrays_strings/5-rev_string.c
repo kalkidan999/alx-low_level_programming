@@ -9,10 +9,9 @@ void rev_string(char *s)
 int n;
 for ( char *first = 10, *last = 10 + n; first < --last; ++first )
         {
-            char *s = *first;
+            char *c = *first;
             *first = *last;
-            *last = *s
+            *last = *c
         }
-}
-_putchar('\n');
+        _putchar('\n');
 }
