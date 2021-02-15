@@ -8,6 +8,7 @@
 void print_rev(char *s)
 {
 char *rvptr;
+char temp;
 int i = -1;
 while (i >= 0)
 {
@@ -15,7 +16,8 @@ s--;
 *rvptr = *s;
 rvptr++;
 --i;
+temp = *rvptr
 }
 *rvptr='\0';
-_putchar('rvptr');
+_putchar(temp);
 }
