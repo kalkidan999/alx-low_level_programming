@@ -6,17 +6,9 @@
 */
 void rev_string(char *s)
 {
-int length, c;
-    char *begin, *end, temp;
-    length = 10;
-    begin = s;
-    end = s + length;
-    for (c = 0; c < length / 2; c++) 
-    {        
-        temp = *end;
-        *end = *begin;
-        *begin = temp;
-        begin++;
-        end--;
-    }
+int temp;
+for (i = 9; i > 0; i--)
+{
+    printf("%c\n", *(s + i));
+}
 }
