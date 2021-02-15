@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <string.h>
 /**
  * print_rev - check the code for Holberton School students.
  * @*s: integer1
@@ -18,6 +17,5 @@ rvptr++;
 --i;
 }
 *rvptr='\0';
-_putchar(revstr);
-return (0);
+_putchar('revstr');
 }
