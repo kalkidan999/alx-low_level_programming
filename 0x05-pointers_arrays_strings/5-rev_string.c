@@ -12,7 +12,7 @@ int c;
     end    = s;
  
     
-    for (c = 0; c <= 10; c++) {        
+    for (c = 0; c <= 10 / 2; c++) {        
         temp   = *end;
         *end   = *begin;
         *begin = temp;
