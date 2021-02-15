@@ -7,9 +7,9 @@
 void rev_string(char *s)
 {
 int length, c;
- char temp;
+ char temp, begin;
     length = 10;
-     char *begin = s;
+     *s = begin;
      char *end = s;
        for (c = 0; c < length; c++) {        
         temp = *end;
