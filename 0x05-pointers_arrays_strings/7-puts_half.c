@@ -22,9 +22,9 @@ _putchar(str[i]);
 }
 else
 {
-for (i = 0; i <= n; i ++)
+for (i = n; i <= c; i ++)
 {
-_putchar(str[i + 5]);
+_putchar(str[i]);
 }
 }
 _putchar('\n');
