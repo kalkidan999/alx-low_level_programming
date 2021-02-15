@@ -23,4 +23,4 @@ int length, c;
         begin++;
         end--;
     }
-}}
+}
