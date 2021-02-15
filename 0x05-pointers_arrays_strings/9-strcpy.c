@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* *_strcpy -change value using the pointer address
+* *_strcpy - change value using
 *
 *@dest: stores the input
 *@src: integer
