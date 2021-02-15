@@ -6,21 +6,13 @@
 */
 void rev_string(char *s)
 {
-char revstr[100];
-char *rvptr = revstr;
-int i = -1;
-while(*s)
-{
-s++;
-i++;
-}
-while(i >= 0)
-{
-s--;
-*rvptr = *s;
-_putchar(*rvptr);
-rvptr++;
---i;
+int n;
+for ( char *first = 10, *last = 10 + n; first < --last; ++first )
+        {
+            char *s = *first;
+            *first = *last;
+            *last = *s
+        }
 }
 _putchar('\n');
 }
