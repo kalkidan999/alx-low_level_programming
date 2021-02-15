@@ -7,10 +7,10 @@
 void rev_string(char *s)
 {
 int length, c;
- char *begin, *end, temp;
+ char temp;
     length = 10;
-    begin  = s;
-    end    = s;
+     char *begin  = s;
+     char *end    = s;
        for (c = 0; c < length; c++) {        
         temp   = *end;
         *end   = *begin;
