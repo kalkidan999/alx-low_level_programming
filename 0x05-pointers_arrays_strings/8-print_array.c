@@ -15,7 +15,7 @@ printf("%d ", a[i]);
 } 
 for(i=0;i<n;i++)
 {
-printf(",", a[i]);
+printf(",");
 } 
-printf("\n", a[i]);
+printf("\n");
 }
