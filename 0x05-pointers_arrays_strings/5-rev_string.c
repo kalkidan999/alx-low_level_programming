@@ -6,9 +6,13 @@
 */
 void rev_string(char *s)
 {
-int temp;
-for (i = 9; i > 0; i--)
+int i;
+for (i = 0; *(s + i) != '\0'; i++)
 {
-    printf("%c\n", *(s + i));
+    c++;
+}
+    for (i = c - 1; i >= 0-; i--)
+{
+   printf(@%c@, *(s + i));
 }
 }
