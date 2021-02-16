@@ -6,21 +6,22 @@
 */
 void puts_half(char *str)
 {
-int i, c = 0;
+int i, r, c = 0;
 while (str[c])
 {
 c++;
 }
-if ((c % 2) == 0)
+r = c % 2;
+if (r == 0)
 {
-for (i = c % 2 ; i <= c; i++)
+for (i = c / 2  ; i <= c; i++)
 {
 _putchar(str[i]);
 }
 }
-else
+else if (r == 1)
 {
-for (i = (c - 1) % 2 ; i <= c; i++)
+for (i = (c - 1) / 2 ; i <= c; i++)
 {
 _putchar(str[i]);
 }
