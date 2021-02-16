@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "holberton.h"
 /**
 * rev_string -change value using the pointer address
@@ -14,6 +13,6 @@ c++;
 }
 for (i = c - 1; i >= 0; i--)
 {
-printf("%c", *(s + i));
+_putchar(*(s + i));
 }
 }
