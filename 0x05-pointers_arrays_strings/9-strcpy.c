@@ -4,6 +4,7 @@
 *
 *@dest: stores the input
 *@src: integer
+*return: int
 */
 char *_strcpy(char *dest, const char *src)
 {
