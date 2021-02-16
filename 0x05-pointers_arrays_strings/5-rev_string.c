@@ -11,7 +11,7 @@ i = c - 1;
 char *first = s, *last = s, temp;
 while (s[c])
 c++;
-}
+
 for (i = 0; i < c - 1; i++)
 {
 last++;
@@ -23,4 +23,5 @@ temp = *last;
 *first = temp;
 first++;
 last--;
+}
 }
