@@ -8,12 +8,7 @@ void rev_string(char *s)
 {
 int i, c = 0;
 i = c - 1;
-for (i = 0; *(s + i) != '\0'; i++)
-{
+char *first = s, *last = s, temp;
+while (s[c])
 c++;
-}
-for (i ; i >= 0; i--)
-{
-_putchar(*(s + i));
-}
 }
