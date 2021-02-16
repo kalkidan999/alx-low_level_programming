@@ -11,7 +11,7 @@ while (str[c])
 {
 c++;
 }
-c = (c-1) / 2;
+c = (c - 1) / 2;
 while (str[++c])
 {
 _putchar(str[c]);
