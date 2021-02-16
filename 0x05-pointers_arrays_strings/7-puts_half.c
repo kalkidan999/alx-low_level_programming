@@ -19,7 +19,7 @@ if (r == 0)
 _putchar(str[i]);
 }
 }
-for (i = (c - 1) / 2 ; i < c; i++)
+for (i = (c - 1) / 2 ; i <= c; i++)
 {
 if (r == 1)
 {
