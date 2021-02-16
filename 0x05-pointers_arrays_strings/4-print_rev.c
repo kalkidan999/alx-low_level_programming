@@ -14,7 +14,7 @@ while (*s)
 s++;
 i++;
 }
-while (i >= 0)
+while (i > 0)
 {
 s--;
 *rvptr = *s;
