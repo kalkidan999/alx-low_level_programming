@@ -11,7 +11,7 @@ while (str[c])
 {
 c++;
 }
-for (i = 0; i <= c; i += 2)
+for (i = 0; i < c; i += 2)
 {
 _putchar(str[i]);
 }
