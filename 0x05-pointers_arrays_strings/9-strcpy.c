@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
-*@_strcpy - change value using
+* _strcpy - change value using
+*
 *@dest: stores the input
 *@src: integer
 */
