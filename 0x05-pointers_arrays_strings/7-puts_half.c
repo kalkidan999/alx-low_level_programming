@@ -12,16 +12,16 @@ while (str[c])
 c++;
 }
 r = c % 2;
-if (r == 0)
-{
 for (i = c / 2  ; i < c; i++)
+{
+if (r == 0)
 {
 _putchar(str[i]);
 }
 }
-else if (r == 1)
-{
 for (i = (c - 1) / 2 ; i < c; i++)
+{
+if (r == 1)
 {
 _putchar(str[i]);
 }
