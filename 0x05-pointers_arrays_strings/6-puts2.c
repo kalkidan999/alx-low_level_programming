@@ -11,9 +11,9 @@ while (str[c])
 {
 c++;
 }
-for (i = 0; i <= c; i++)
+for (i = 0; i <= c; i += 2)
 {
-_putchar(str[i + 2]);
+_putchar(str[i]);
 }
 _putchar('\n');
 }
