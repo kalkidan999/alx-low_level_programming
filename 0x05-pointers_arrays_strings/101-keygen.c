@@ -2,17 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-
 int main()
 {
     int i;
     char pass[12];
     srand((unsigned)(time(NULL)));
-    
-    printf("Press enter to get a twelve-character password\n");
-    getchar();
 
-    for (i = 0; i < 4; i++) {
+    for (i = 0; i < 4; i++)
+ {
         pass[i] = rand() % 9;
         char capLetter = 'A' + (rand() % 26);
         pass[i + 2] = capLetter;
@@ -21,4 +18,5 @@ int main()
         printf("%d%c%c", pass[i], pass[i + 2], pass[i + 3]);
     }
     printf("\n\n");
+return (0);
 }
