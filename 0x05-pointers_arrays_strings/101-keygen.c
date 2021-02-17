@@ -15,5 +15,5 @@ int main(void)
     {
         printf("%c", characters[rand() % (sizeof characters - 1)]);
     }
-
+return (0);
 }
