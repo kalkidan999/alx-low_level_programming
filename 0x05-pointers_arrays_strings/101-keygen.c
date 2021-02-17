@@ -5,10 +5,10 @@
 
 int main()
 {
-    srand((unsigned int)(time(NULL)));
     int i;
     char pass[12];
-
+    srand((unsigned)(time(NULL)));
+    
     printf("Press enter to get a twelve-character password\n");
     getchar();
 
