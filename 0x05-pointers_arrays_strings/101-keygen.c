@@ -16,7 +16,7 @@ char letter = 'a' + (rand() % 26);
         
         pass[i + 2] = capLetter;
         
-        pass[i + 3] = letter;
+        pass[i + 6] = letter;
         printf("%d%c%c", pass[i], pass[i + 2], pass[i + 3]);
     }
     printf("\n\n");
