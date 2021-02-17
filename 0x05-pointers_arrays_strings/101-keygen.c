@@ -8,7 +8,7 @@ int main()
     char pass[12];
 char capLetter = 'A' + (rand() % 26);
 char letter = 'a' + (rand() % 26);
-    srand((unsigned)(time(NULL)));
+    srand((unsigned int)(time(NULL)));
 
     for (i = 0; i < 4; i++)
  {
