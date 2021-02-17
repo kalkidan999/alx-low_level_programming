@@ -1,24 +1,32 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 #include <time.h>
-int main()
-{
-    int i;
-    char pass[12];
-char capLetter = 'A' + (rand() % 26);
-char letter = 'a' + (rand() % 26);
-    srand((unsigned int)(time(NULL)));
+#include <stdlib.h>
+#include <stdio.h>
 
-    for (i = 0; i < 4; i++)
- {
-        pass[i] = rand() % 9;
-        
-        pass[i + 2] = capLetter;
-        
-        pass[i + 6] = letter;
-        printf("%d%c%c", pass[i], pass[i + 2], pass[i + 3]);
-    }
-    printf("\n\n");
-return (0);
+/**
+ * main - generates a password 
+ *
+ * Return: 0 on success
+ */
+int main(void)
+{
+	char password[100];
+	int randNum, num, i;
+
+	num = 0;
+	i = 0;
+	srand(time(NULL));
+	while (num < 2645)
+	{
+		randNum = random() % 127;
+		if (randNum > 32)
+		{
+			password[i++] = randNum;
+			num += randNum;
+		}
+	}
+	password[i++] = (2772 - num);
+	password[i] = '\0';
+	printf("%s", password);
+
+	return (0);
 }
