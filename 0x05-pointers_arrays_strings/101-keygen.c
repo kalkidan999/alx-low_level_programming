@@ -6,7 +6,7 @@ int main(void)
 {
      srand((unsigned int)(time(NULL)));
 
-    int index = 0;
+    int index;
 
    
     char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
