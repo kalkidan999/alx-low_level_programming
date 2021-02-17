@@ -19,4 +19,3 @@ for (; s[i] != '\0'; ++i)
 res = res * 10 + s[i] - '0';
 return (sign * res);
 }
-}
