@@ -27,5 +27,5 @@ for (i = 0; i < c; i++);
    	src[i] = '\0';
 
   	_putchar(src[i]);
-  	
+  	return (0);
 }
