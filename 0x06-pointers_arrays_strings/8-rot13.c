@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *rot13 - change value using
-*s: character
+*@s: character
 *Return: int
 */
 char *rot13(char *s)
