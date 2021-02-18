@@ -9,10 +9,10 @@ char *rot13(char *s)
 int i = 0;
         for( i = 0; s[ i ] != '\0' ; i++ ){
 
-            if( *( s + i ) >= 'a' && *( str + i ) < 'n')
+            if( *( s + i ) >= 'a' && *( s + i ) < 'n')
                 *( s + i ) += 13;       
 
-            else if( *( str + i ) >= 'n' && *( str + i ) <= 'z')
-                *( str + i ) -= 13;
+            else if( *( s + i ) >= 'n' && *( s + i ) <= 'z')
+                *( s + i ) -= 13;
         }
 }
