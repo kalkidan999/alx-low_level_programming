@@ -16,7 +16,7 @@ c++;
 }
   while (src[d])
 {
-c++;
+d++;
 }
 for (i = 0; i < c; i++);
   
