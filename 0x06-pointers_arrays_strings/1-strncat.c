@@ -1,23 +1,28 @@
 #include "holberton.h"
 /**
-*_strncat - change value using
-*n: integer
-*@dest: stores the input
-*@src: characteres
-*Return: int
+* _strncat - conc string
+*
+*@dest:  input
+*@src: output
+*@n: number of characters
+*Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
-while(*dest)
-	{
-		Str1++;
-	}
-	
-	while(*src)
-	{
-		*dest = *src;
-		*src++;
-		*dest++;
-  	}
-  	*dest = '\0';
+int i;
+int j;
+i = 0;
+j = 0;
+while (dest[i] != '\0')
+{
+i++;
+}
+while (j < n)
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+dest[i] = '\0';
+return (dest);
 }
