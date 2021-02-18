@@ -25,7 +25,6 @@ for (i = 0; i < c; i++);
   	{
   		src[i] = dest[j];
   	}
- *p = src[i];
-   	src[i] = '\0';
+   	dest[i] = '\0';
   	return (0);
 }
