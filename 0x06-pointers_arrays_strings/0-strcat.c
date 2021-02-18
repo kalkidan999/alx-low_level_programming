@@ -18,11 +18,11 @@ c++;
 {
 d++;
 }
-for (i = 0; i < c; i++);
+for (i = 0; i < c; i++)
   {
   	for (j = 0; j < d; j++)
   	{
-  		dest[j] = src[i];
+  		dest[i] = src[j];
   	}
   }
   	return (0);
