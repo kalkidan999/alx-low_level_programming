@@ -8,11 +8,11 @@ char *rot13(char *s)
 {
  int i =0;
  
-  for(i=0;str && str[i]; ++i) 
+  for(i=0;s && s[i]; ++i) 
   {
-    if(str[i] >= 'a' && (str[i]+13) <='z')
+    if(s[i] >= 'a' && (s[i]+13) <='z')
     {
-      str[i] = str[i]+13;      
+      s[i] = s[i]+13;      
     }
   }
 return (0);
