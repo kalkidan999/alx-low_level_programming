@@ -19,7 +19,7 @@ d++;
 }
 for (i = 0; i < c; i++);
   
-  	for (j = 0; j < d; j++)
+  	for (j = 0; j < d; j++, i++)
   	{
   		dest[i] = src[j];
   	}
