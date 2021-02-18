@@ -8,20 +8,20 @@
 char *leet(char *s)
 {
 	int i;
-
-	i = 0;
+  char char_set[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+	*char_set = '4';
+	*(char_set + 26) = '4';
+	*(char_set + 4) = '3';
+	*(char_set + 30) = '3';
+	*(char_set + 14) = '0';
+	*(char_set + 40) = '0';
+	*(char_set + 19) = '7';
+	*(char_set + 45) = '7';
+	*(char_set + 12) = '1';
+	*(char_set + 37) = '0';
 	while (s[i] != '\0')
 	{
-		while (s[i] == 'a' || s[i] == 'A')
-			s[i] = '4';
-		while (s[i] == 'e' || s[i] == 'E')
-			s[i] = '3';
-		while (s[i] == 'o' || s[i] == 'O')
-			s[i] = '0';
-		while (s[i] == 't' || s[i] == 'T')
-			s[i] = '7';
-		while (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
+		s[i];
 		i++;
 	}
 	return (s);
