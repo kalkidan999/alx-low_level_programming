@@ -3,7 +3,7 @@
 *_strcat - change value using
 *
 *@dest: stores the input
-*@src: integer
+*@src: characteres
 *Return: int
 */
 char *_strcat(char *dest, char *src)
@@ -13,16 +13,14 @@ while (dest[c])
 {
 c++;
 }
-  while (src[d])
+while (src[d])
 {
 d++;
 }
 for (i = 0; i < c; i++);
-  
-  	for (j = 0; j < d; j++, i++)
-  	{ 
-  		dest[i] = src[j];
-  	}
-  
-  	return (0);
+for (j = 0; j < d; j++, i++)
+{
+ dest[i] = src[j];
+ }
+ return (0);
 }
