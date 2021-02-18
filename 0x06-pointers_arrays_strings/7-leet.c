@@ -1,28 +1,24 @@
 #include "holberton.h"
 /**
- * leet - convert string
-
- * @s: string to convert 
- * Return: success
+ * leet - to number
+ * @s: char params
+ * Return: suceess
  */
 char *leet(char *s)
 {
-	int i;
-  char char_set[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-	*char_set = '4';
-	*(char_set + 26) = '4';
-	*(char_set + 4) = '3';
-	*(char_set + 30) = '3';
-	*(char_set + 14) = '0';
-	*(char_set + 40) = '0';
-	*(char_set + 19) = '7';
-	*(char_set + 45) = '7';
-	*(char_set + 12) = '1';
-	*(char_set + 37) = '0';
-	while (s[i] != '\0')
-	{
-		
-		i++;
-	}
-	return (s);
+ int i;
+ int j;
+ char l[] = "ol_ea__t";
+
+ for (i = 0; s[i] != '\0'; i++)
+ {
+  for (j = 0; l[j] != '\0'; j++)
+  {
+   if (s[i] == l[j] || s[i] == (l[j] - 32))
+   {
+    s[i] = j + '0';
+   }
+  }
+ }
+ return (s);
 }
