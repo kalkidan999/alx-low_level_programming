@@ -20,9 +20,9 @@ d++;
 }
 for (i = 0; i < c; i++);
   
-  	for (j = 0; i < d; j++, i++)
+  	for (j = 0; j < d; j++, i++)
   	{
-  		src[i] = dest[j];
+  		dest[i] = src[j];
   	}
    	dest[i] = '\0';
   	return (0);
