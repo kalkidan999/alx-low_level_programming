@@ -25,7 +25,5 @@ for (i = 0; i < c; i++);
   		dest[i] = src[j];
   	}
    	src[i] = '\0';
-
-  	_putchar(src[i]);
   	return (0);
 }
