@@ -10,7 +10,6 @@ char *_strcat(char *dest, char *src)
 {
 int i, j, c = 0, d = 0;
 i = 0;
-int *p;
 while (dest[c])
 {
 c++;
