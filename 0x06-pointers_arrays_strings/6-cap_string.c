@@ -6,14 +6,15 @@
  */
 int charac(char c)
 {
-if (c == ' ' || c == '\t' || c == '\n' || c == ',' || c == ';' || c == '.' || c == '!' || c == '?' || c == '"' ||
-    c == '(' || c == ')' || c == '{' || c == '}')
+if (c == ' ' || c == '\t' || c == '\n' || c == ',' || c == ';' || c == '.' ||
+c == '!' || c == '?' || c == '"' ||
+c == '(' || c == ')' || c == '{' || c == '}')
 return (1);
 return (0);
 }
 /**
- * cap_string - capitalizes chars 
- * @s: string 
+ * cap_string - capitalizes chars
+ * @s: string
  * Return: return s
  */
 char *cap_string(char *s)
