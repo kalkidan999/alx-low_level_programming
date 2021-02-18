@@ -22,7 +22,7 @@ for (i = 0; i < c; i++)
   {
   	for (j = 0; j < d; j++)
   	{
-  		dest[i] = src[j];
+  		dest[j] = src[i];
   	}
   }
   	return (0);
