@@ -21,7 +21,7 @@ char *leet(char *s)
 	*(char_set + 37) = '0';
 	while (s[i] != '\0')
 	{
-		s[i];
+		
 		i++;
 	}
 	return (s);
