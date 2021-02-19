@@ -1,22 +1,22 @@
 #include "holberton.h"
 /**
-* _strncpy -concatinate string
-*
-*@dest: stores the input
-*@src: source
-*@n: number of characters
-*Return: dest
+* _strncpy - conc string
+*@dest: input
+*@src: src
+*@n: number of char
+*Return: success
 */
 char *_strncpy(char *dest, char *src, int n)
 {
 int i;
-int j;
-i = 0;
-j = 0;
-for (i = 0; i <= n; i++)
+for (i = 0; i < n && *(src + i) != '\0'; i++)
 {
-dest[i] = src[j];
-j++;
+*(dest + i) = *(src + i);
+}
+while (i < n)
+{
+*(dest + i) = '\0';
+i++;
 }
 return (dest);
 }
