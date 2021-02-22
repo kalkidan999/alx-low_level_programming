@@ -15,7 +15,7 @@ for (i = 0; i < size; i++)
 for (j = 0; j < size; j++)
 {
 if (i == j)
-sum + = arr[i][j]
+sum + = a[i][j]
 }
 printf("\n");
 }
