@@ -16,8 +16,8 @@ if (s[i] == c)
 count++;
 }
 if (count == 0)
-printf("not found", c);
+printf("not found %c", c);
 else
-printf("occurce is %c : %d" c, count);
+printf("occurce is %c : %d", c, count);
 return (s);
 }
