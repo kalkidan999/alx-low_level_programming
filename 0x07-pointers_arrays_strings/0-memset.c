@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _memset - prints buffer 
+ * _memset - prints buffer
  * @s: the pointer of memory to print
  * @b: the character of memory to print
  * @n: the size of the memory to print
