@@ -14,7 +14,7 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
 {
-printf(*(a[i] + j));
+printf("%p", *(a[i] + j));
 }
 printf("\n");
 }
