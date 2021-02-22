@@ -13,6 +13,7 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == c)
 count++;
+s[i] - count;
 }
-return (s[i] - count);
+return (s);
 }
