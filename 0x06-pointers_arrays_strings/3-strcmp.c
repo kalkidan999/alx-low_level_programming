@@ -1,24 +1,20 @@
 #include "holberton.h"
 /**
-* _strcmp -concatinate string
+* _strspn -search n display length
 *
-*@s1: stores the input
-*@s2: source
+*@s: stores the input
+*@accept: source
 *Return: comp
 */
-int _strcmp(char *s1, char *s2)
+unsigned int _strspn(char *s, char *accept)
 {
-while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
+unsigned int i, j;
+for (i = 0; i < s[i] !='\0'; i++)
 {
-s1++;
-s2++;
+for (j = 0; i < accept[j] !='\0'; j++)
+{
+if (*s == *accept)
+return accept[j];
 }
-if (*s1 == *s2)
-{
-return (0);
-}
-else
-{
-return (*s1 - *s2);
 }
 }
