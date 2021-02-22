@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _memcpy - copies buffer 
+ * _memcpy - copies buffer
  * @dest: the pointer of memory to print
  * @src: the character of memory to print
  * @n: the size of the memory to print
