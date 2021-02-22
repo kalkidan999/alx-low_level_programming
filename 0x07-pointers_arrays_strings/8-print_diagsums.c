@@ -9,13 +9,22 @@
 */
 void print_diagsums(int *a, int size)
 {
-int j, sum = 0;
-int array[j][j];
-a = array;
-for (j = 0; j < size; ++j)
-{
-sum = sum + a[j];
-}
-printf("\n");
-}
+int sum, sum2, i, max;
 
+	i = sum = sum2 = 0;
+	max = size * size;
+
+	while (i < max)
+	{
+		sum += a[i];
+		i = i + size + 1;
+	}
+	i = size - 1;
+	while (i < (max - 1))
+	{
+		sum2 += a[i];
+		i = i + (size - 1);
+	}
+
+	printf("%d, %d\n", sum, sum2);
+}
