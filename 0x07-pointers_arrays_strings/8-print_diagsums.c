@@ -11,7 +11,7 @@ void print_diagsums(int *a, int size)
 {
 int j, sum = 0;
 int array[j][j];
-a == array;
+a = array;
 for (j = 0; j < size; ++j)
 {
 sum = sum + a[j];
