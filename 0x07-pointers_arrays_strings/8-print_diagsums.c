@@ -9,7 +9,7 @@
 */
 void print_diagsums(int *a, int size)
 {
-int i, j, *sum;
+int i, j, sum;
 for (j = 0; j < size; ++j)
 {
 for (i = 0; i < size; ++i)
