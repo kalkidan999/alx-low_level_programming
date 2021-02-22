@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strchr - searches buffer 
+ * _strchr - searches buffer
  * @s: the pointer of memory to print
  * @c: the character of memory to print
  *
@@ -15,9 +15,9 @@ if (*s == c)
 return (s);
 }
 s++;
-}                                                                                                                    
-if (*s == c)                                                                                                        
-{                                                                                                                      
+}                                                                                                          
+if (*s == c)                                                                                         
+{                                                                                                 
 return (s);
 }
 return ('\0');
