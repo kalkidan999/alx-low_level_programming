@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 *print_diagsums - print character in a string
 *
@@ -13,8 +14,8 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
 {
-_putchar(*(a[i] + j));
+printf(*(a[i] + j));
 }
-_putchar('\n');
+printf("\n");
 }
 }
