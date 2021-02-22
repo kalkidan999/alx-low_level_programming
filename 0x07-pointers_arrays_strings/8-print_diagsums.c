@@ -6,7 +6,7 @@
 *size: sizes
 *Return: number of characters
 */
-void print_diagsums(int *a, int size);
+void print_diagsums(int *a, int size)
 {
 int i, j;
 for (i = 0; i < size; i++)
