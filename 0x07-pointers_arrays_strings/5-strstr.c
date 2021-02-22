@@ -19,7 +19,6 @@ haystack++;
 if (!*pattern)
 return Begin;
 haystack = Begin + 1;
-return ('/0');
 }
 return (0);
 }
