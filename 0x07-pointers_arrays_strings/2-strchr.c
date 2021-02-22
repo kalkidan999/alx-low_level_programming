@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * _strchr - searches buffer 
  * @s: the pointer of memory to print
@@ -10,7 +9,7 @@
 char *_strchr(char *s, char c)
 {
 int i, j, count = 0;
-for (j = 0; s[i] >= count; j++)
+for (j = 0; s[i] >= count; j--)
 {
 for (i = 0; s[i] != '\0'; i++)
 {
