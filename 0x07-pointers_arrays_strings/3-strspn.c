@@ -1,20 +1,22 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- * @s: character
- * @accept: characcter
- * Return: Always 0.
+ * _strspn -check character in a string
+ *
+ *@s: source
+ *@accept: character
+ *Return: number of characters
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int count = 0;
-while(*s == *accept)
-{
-   while (*accept != '\0') 
-   {
-      count++;
-      accept++;
-   }
+  unsigned int i;
+  unsigned int j;
+  for (i = 0; s[i] != '\0'; i++)
+    {
+      for (j = 0; accept[j] != s[i]; j++)
+	{
+	  if (accept[j] == '\0')
+ return (i);
 }
-   return (*s);
+}
+return (i);
 }
