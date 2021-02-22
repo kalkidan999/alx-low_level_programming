@@ -10,14 +10,11 @@
 char *_strchr(char *s, char c)
 {
 int i, count = 0;
+char *p = NULL;
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == c)
 count++;
 }
-if (count == 0)
-printf("not found %c", c);
-else
-printf("occurce is %c : %d", c, count);
-return (s);
+return (s[i - count]);
 }
