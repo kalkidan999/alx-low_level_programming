@@ -9,12 +9,13 @@
 */
 void print_diagsums(int *a, int size)
 {
-int i, j;
+int i, j, sum;
 for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
 {
-printf("%p", *(a[i] + j));
+if (i == j)
+sum + = arr[i][j]
 }
 printf("\n");
 }
