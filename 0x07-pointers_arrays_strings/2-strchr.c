@@ -15,7 +15,7 @@ if (s[i] == c)
 {
 count++;
 }
-s[i] - count;
+*(s - count);
 }
 return (s);
 }
