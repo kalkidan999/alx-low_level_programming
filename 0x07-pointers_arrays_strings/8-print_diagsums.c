@@ -4,19 +4,19 @@
 *print_diagsums - print character in a string
 *
 *@a: print char
-*size: sizes
+*@size: sizes
 *Return: number of characters
 */
 void print_diagsums(int *a, int size)
 {
-int sum, sum2, i, max;
+int sum1, sum2, i, max;
 
-	i = sum = sum2 = 0;
+	i = sum1 = sum2 = 0;
 	max = size * size;
 
 	while (i < max)
 	{
-		sum += a[i];
+		sum1 += a[i];
 		i = i + size + 1;
 	}
 	i = size - 1;
@@ -26,5 +26,5 @@ int sum, sum2, i, max;
 		i = i + (size - 1);
 	}
 
-	printf("%d, %d\n", sum, sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
