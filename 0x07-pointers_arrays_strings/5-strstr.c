@@ -14,10 +14,10 @@ char *pattern = needle;
 while (*haystack && *pattern && *haystack == *pattern)
 {
 haystack++;
- pattern++;
+pattern++;
 }
 if (!*pattern)
-return Begin;
+return (Begin);
 haystack = Begin + 1;
 }
 return (0);
