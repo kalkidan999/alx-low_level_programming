@@ -10,12 +10,12 @@
 void print_diagsums(int *a, int size)
 {
 int i, j, *sum;
-for (j = 0; j < size; j++)
+for (j = 0; j < size; ++j)
 {
-for (i = 0; i < size; i++)
+for (i = 0; i < size; ++i)
 {
-sum += a[i][j];
-printf("%d", sum);
+if (i == j)
+sum = sum + a[i][j];
 }
 printf("\n");
 }
