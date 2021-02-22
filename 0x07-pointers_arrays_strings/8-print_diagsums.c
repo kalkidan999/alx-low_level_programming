@@ -9,11 +9,10 @@
 */
 void print_diagsums(int *a, int size)
 {
-int **b == *a;
-int j, sum;
+int j, sum = 0;
 for (j = 0; j < size; ++j)
 {
-sum = sum + b[j];
+sum = sum + a[j];
 }
 printf("\n");
 }
