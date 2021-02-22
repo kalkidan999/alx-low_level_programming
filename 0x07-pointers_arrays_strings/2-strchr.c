@@ -17,7 +17,7 @@ i++;
 for (index = 0; index < i; index++)
 if (s[index] == c)
 {
-s = &s[index];
+s = s[index];
 return (s);
 }
 else
