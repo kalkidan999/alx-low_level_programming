@@ -13,8 +13,7 @@ for (i = 0; i <= 8; i++)
 {
 for (j = 0; a[j] != '\0'; j++)
 {
-return (a);
+return (*a);
 }
 }
-return (0);
 }
