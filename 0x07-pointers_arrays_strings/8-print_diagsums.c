@@ -9,7 +9,7 @@
 */
 void print_diagsums(int *a, int size)
 {
-int **b = *a;
+int **b == *a;
 int j, sum;
 for (j = 0; j < size; ++j)
 {
