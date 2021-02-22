@@ -10,11 +10,11 @@
 char *_strchr(char *s, char c)
 {
 int i, count = 0;
-char *p = NULL;
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == c)
 count++;
 }
-return (s[i - count]);
+char d = s[i] - count;
+return (d);
 }
