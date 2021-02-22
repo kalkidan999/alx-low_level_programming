@@ -16,5 +16,5 @@ while(*s == *accept)
       accept++;
    }
 }
-   return (count);
+   return (*s);
 }
