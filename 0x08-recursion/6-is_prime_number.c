@@ -8,12 +8,12 @@
  */
 int prime(int a, int j)
 {
-	if (j < 2 || j % a == 0)
-		return (0);
-	else if (a > j / 2)
-		return (1);
-	else
-		return (prime(a + 1, j));
+if (j < 2 || j % a == 0)
+return (0);
+else if (a > j / 2)
+return (1);
+else
+return (prime(a + 1, j));
 }
 
 /**
@@ -24,7 +24,7 @@ int prime(int a, int j)
  */
 int is_prime_number(int n)
 {
-	if (n == 2)
-		return (1);
-	return (prime(2, n));
+if (n == 2)
+return (1);
+return (prime(2, n));
 }
