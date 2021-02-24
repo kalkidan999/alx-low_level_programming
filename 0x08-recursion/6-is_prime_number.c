@@ -13,7 +13,7 @@ int prime(int a, int j)
 	else if (a > j / 2)
 		return (1);
 	else
-		return (prime_check(a + 1, j));
+		return (prime(a + 1, j));
 }
 
 /**
