@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * prime_ - checks number is prime
+ * prime - checks number is prime
  * @a:  check
  * @j:  prime number
  *
