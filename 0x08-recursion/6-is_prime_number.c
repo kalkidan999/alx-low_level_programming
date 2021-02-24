@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * prime_check - checks to see if number is prime
- * @f: factor check
- * @p: possible prime number
+ * prime_ - checks number is prime
+ * @a:  check
+ * @j:  prime number
  *
  * Return: 1 if prime, 0 if not
  */
