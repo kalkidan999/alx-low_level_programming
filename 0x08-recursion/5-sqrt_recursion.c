@@ -15,7 +15,6 @@ else if (n < sqrt)
 return (-1);
 return (sqrt_1(n, ++c));
 }
-
 /**
  *_sqrt_recursion - check the code.
  *@n: character
