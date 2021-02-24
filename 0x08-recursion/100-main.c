@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-
 /**
  * main - check the code for Holberton School students.
  *
@@ -9,7 +8,6 @@
 int main(void)
 {
     int r;
-
     r = wildcmp("main.c", "*.c");
     printf("%d\n", r);
     r = wildcmp("main.c", "m*a*i*n*.*c*");
