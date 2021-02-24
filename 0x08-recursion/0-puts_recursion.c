@@ -6,8 +6,14 @@
  */
 void _puts_recursion(char *s)
 {
-if (s='\0')
+int i = 0;
+while (s[i] != '\0')
 {
-_putchar(*s);
+i++;
+}
+if (*s)
+{
+_puts_recursion(*s);
+s[i] = *s;
 }
 }
