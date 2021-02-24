@@ -15,7 +15,6 @@ return (1);
 else
 return (prime(a + 1, j));
 }
-
 /**
  * is_prime_number - states if number is prime
  * @n: number to check
