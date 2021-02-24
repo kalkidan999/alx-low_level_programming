@@ -15,9 +15,9 @@ if (y == 0)
 {
 return (1);
 }
-if (y > 1)
+if (y == 1)
 {
-pwr = x * _pow_recursion(x++);
-return (pwr);
+return (x);
 }
+return (x * _pow_recursion(x, --y));
 }
