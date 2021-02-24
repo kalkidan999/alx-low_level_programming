@@ -32,5 +32,5 @@ if (n == 1)
 {
 return (1);
 }
-return (n * _sqrt_1(n, 2));
+return (sqrt_1(n, 2));
 }
