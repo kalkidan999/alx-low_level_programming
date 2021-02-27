@@ -18,6 +18,6 @@ if (argc != 3)
 	{
 		mul *= atoi(argv[i]);
 	}
-	printf("%d\n", val);
+	printf("%d\n", mul);
 	return (0);
 }
