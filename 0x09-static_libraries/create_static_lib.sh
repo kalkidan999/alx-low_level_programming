@@ -1,10 +1,4 @@
-#include "holberton.h"
-/**
- *main - check the code for Holberton School students.
- *@s: character
- * Return: Always 0.
- */
-void main() 
-{
-
-}
+#!/bin/bash
+gcc -c *.c
+ar -rc liball.a *.o
+ranlib liball.a
