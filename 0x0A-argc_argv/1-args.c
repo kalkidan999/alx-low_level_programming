@@ -5,9 +5,8 @@
  *@argv: array
  * Return: Always 0.
  */
-int main(int argc, char *argv[])
+int main(int argc)
 {
-int count = 0;
-printf("%d\n", argv[argc]);
+printf("%d\n", argc);
 return (0);
 }
