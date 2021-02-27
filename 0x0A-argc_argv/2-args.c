@@ -10,6 +10,6 @@ int main (int argc, char *argv[])
 	{
 	  printf("argv[%d] = %s\n", count, argv[count]);
 	}
+  }
   return 0;
-}
 }
