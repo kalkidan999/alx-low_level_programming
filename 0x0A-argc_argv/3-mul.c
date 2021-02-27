@@ -13,7 +13,7 @@ if (argc > 0)
 {
 for (i = 0; i < argc; i++)
 {
-count *= atoi(argv[i];
+count *= atoi(argv[i]);
 }
   printf("%d\n", argv[count]);
 }
