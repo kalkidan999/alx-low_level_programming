@@ -8,8 +8,8 @@
 int main(int argc, char *argv[])
 {
 int i;
-int a = argv[1];
-int b = argv[1++];
+int a = *argv[1];
+int b = *argv[1++];
 int count = a * b;
 if (argc > 0)
 {
