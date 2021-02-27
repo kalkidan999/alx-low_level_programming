@@ -7,11 +7,11 @@
  */
 int main(int argc, char *argv[])
 {
-int a , b;
+int a , b, i;
 int count = a * b;
 if (argc > 0)
 {
-for (count = 0; count < argc; count++)
+for (i = 0; i < argc; i++)
 {
 printf("%s\n", argv[count]);
 }
