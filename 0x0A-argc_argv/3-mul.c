@@ -8,11 +8,12 @@
 int main(int argc, char *argv[])
 {
 int i;
+int a = b = 0;
+int count = a * b;
 if (argc > 0)
 {
 for (i = 0; i < argc; i++)
 {
-int count = argv[1] * argv[1 + i];
 printf("%s\n", argv[count]);
 }
 }
