@@ -8,15 +8,14 @@
 int main(int argc, char *argv[])
 {
 int i;
-int a = *argv[1];
-int b = *argv[2];
 int count = a * b;
 if (argc > 0)
 {
 for (i = 0; i < argc; i++)
 {
-printf("%s\n", argv[count]);
+count *= atoi(argv[i];
 }
+  printf("%d\n", argv[count]);
 }
 return (0);
 }
