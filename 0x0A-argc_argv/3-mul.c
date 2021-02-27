@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
 int i;
 int a = *argv[1];
-int b = *argv[1++];
+int b = *argv[i++];
 int count = a * b;
 if (argc > 0)
 {
