@@ -16,7 +16,7 @@ for (i = 0; i < argc; i++)
 {
 count *= atoi(argv[i]);
 }
-  printf("%d\n", argv[count]);
+  printf("%d\n", count);
 }
 return (0);
 }
