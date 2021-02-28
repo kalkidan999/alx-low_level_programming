@@ -28,9 +28,10 @@ int main(int argc, char *argv[])
 {
 int sum, i;
 sum = 0;
-if (argc < 3)
+if (argc < 1)
 {
 printf("0\n");
+return (1);
 }
 i = 1;
 while (i < argc)
