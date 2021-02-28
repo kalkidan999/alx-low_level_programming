@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * checkString - check the code for Holberton School students.
  *@Str: character count
@@ -10,7 +11,7 @@ int checkString(char *Str)
 char *ptr = Str;
 while (*ptr)
 {
-if (!(*ptr >= 0x30 && *ptr <= 0x39))
+if (isdigit(ptr))
 {
 return (0);
 }
