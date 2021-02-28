@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int is_number(char const* arg)
+{
+   // Add the logic to check whether arg is a number
+   // The code here can be simple or complex depending on the 
+   // level of checking that is necessary.
+   // Should we return true or false if the argument is "1abc"?
+
+   // This is a very simple test.
+   int n;
+   return (sscanf(arg, "%d", &n) == 1);
+}
 /**
  * main - check the code for Holberton School students.
  *@argc: character count
@@ -19,7 +30,7 @@ for (i = 1; i < argc; i++)
 sum += atoi(argv[i]);
     }
 
-if ('0' <= argv[1][0] && argv[1][0] <= '9')
+if (is_number(argv[i]) )
   {
       printf("%d\n", sum);
   }
