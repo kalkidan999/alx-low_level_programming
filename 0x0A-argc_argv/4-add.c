@@ -31,7 +31,6 @@ sum = 0;
 if (argc < 3)
 {
 printf("0\n");
-return (1);
 }
 i = 1;
 while (i < argc)
