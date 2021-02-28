@@ -19,7 +19,7 @@ for (i = 1; i < argc; i++)
 sum += atoi(argv[i]);
     }
 
-  if (isdigit((unsigned char)argv[1][0]))
+  if (isdigit(argv[1][0]))
   {
       printf("%d\n", sum);
   }
