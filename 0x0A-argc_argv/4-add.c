@@ -7,9 +7,7 @@ int checkString(char *Str)
 
     while( *ptr )
     {
-        // check if string characters are within the range of numbers
-
-        if( ! (*ptr >= 0x30 && *ptr <= 0x39 ) )
+                if( ! (*ptr >= 0x30 && *ptr <= 0x39 ) )
         {
             return 0;
         }
