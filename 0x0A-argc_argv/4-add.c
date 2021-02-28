@@ -24,23 +24,27 @@ int checkString(char *Str)
  */
 int main(int argc, char *argv[])
 {
-int i, sum = 0;
-if (argc < 1)
-{
-printf("0\n");
-}
-for (i = 1; i < argc; i++)
-{
-sum += atoi(argv[i]);
-    }
-if (checkString(argv[1][i]))
-  {
-      printf("%d\n", sum);
-  }
-    else 
-    {
-      printf("Error\n");
-return (1);
-}
-return (0);
+int results, i;
+	results = 0;
+	if (argc < 3)
+	{
+		printf("0\n");
+		return (1);
+	}
+	i = 1;
+	while (i < argc)
+	{
+		if (checkString(argv[i]))
+		{
+			results += atoi(argv[i]);
+		}
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+		i++;
+	}
+	printf("%d\n", results);
+	return (0);
 }
