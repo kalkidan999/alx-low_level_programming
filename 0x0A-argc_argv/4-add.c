@@ -3,7 +3,6 @@
 /**
  * checkString - check the code for Holberton School students.
  *@Str: character count
- *@Return: array
  * Return: Always 0.
  */
 int checkString(char *Str)
