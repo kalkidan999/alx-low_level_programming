@@ -1,10 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int is_number(char const* arg)
+int checkString(char *Str)
 {
-     int n;
-   return (sscanf(arg, "%d", &n) == 1);
+    char *ptr = Str;
+
+    while( *ptr )
+    {
+        // check if string characters are within the range of numbers
+
+        if( ! (*ptr >= 0x30 && *ptr <= 0x39 ) )
+        {
+            return 0;
+        }
+        ptr++;
+    }
+
+    return 1;
 }
 /**
  * main - check the code for Holberton School students.
@@ -24,7 +36,7 @@ for (i = 1; i < argc; i++)
 sum += atoi(argv[i]);
     }
 
-if (is_number(argv[i]) )
+if (checkString(argv[i]) )
   {
       printf("%d\n", sum);
   }
