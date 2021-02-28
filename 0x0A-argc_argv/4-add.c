@@ -25,6 +25,7 @@ int checkString(char *Str)
 int main(int argc, char *argv[])
 {
 int i, sum = 0;
+int j = 1;
 if (argc < 1)
 {
 printf("0\n");
@@ -34,7 +35,7 @@ for (i = 1; i < argc; i++)
 sum += atoi(argv[i]);
     }
 
-if (checkString(argv[i]) )
+if (checkString(argv[j]) )
   {
       printf("%d\n", sum);
   }
