@@ -1,18 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * checkString - check the code for Holberton School students.
+ *@Str: character count
+ *@Return: array
+ * Return: Always 0.
+ */
 int checkString(char *Str)
 {
 char *ptr = Str;
 while (*ptr )
 {
-if( ! (*ptr >= 0x30 && *ptr <= 0x39 ) )
+if (!(*ptr >= 0x30 && *ptr <= 0x39))
 {
-return 0;
+return (0);
 }
 ptr++;
 }
-return 1;
+return (1);
 }
 /**
  * main - check the code for Holberton School students.
