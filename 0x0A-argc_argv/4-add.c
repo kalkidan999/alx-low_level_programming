@@ -8,7 +8,7 @@
 int checkString(char *Str)
 {
 char *ptr = Str;
-while (*ptr )
+while (*ptr)
 {
 if (!(*ptr >= 0x30 && *ptr <= 0x39))
 {
