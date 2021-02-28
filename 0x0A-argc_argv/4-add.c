@@ -25,7 +25,7 @@ int checkString(char *Str)
 int main(int argc, char *argv[])
 {
 int i, sum = 0;
-int j = 1;
+int j += 1;
 if (argc < 1)
 {
 printf("0\n");
