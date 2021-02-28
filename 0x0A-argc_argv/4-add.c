@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+
 /**
  * main - check the code for Holberton School students.
  *@argc: character count
@@ -19,7 +19,7 @@ for (i = 1; i < argc; i++)
 sum += atoi(argv[i]);
     }
 
-  if (isdigit(argv[i][i]))
+if ('0' <= argv[1][0] && argv[1][0] <= '9')
   {
       printf("%d\n", sum);
   }
