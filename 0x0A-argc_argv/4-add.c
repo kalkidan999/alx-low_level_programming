@@ -16,10 +16,8 @@ printf("0\n");
 for (i = 1; i < argc; i++)
 {
 if (isdigit(argv[i])
-    {
 sum += atoi(argv[i]);
-    }
-    else {
+    else 
       printf("Error\n");
 return (1);
 }
