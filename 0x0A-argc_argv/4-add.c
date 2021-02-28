@@ -34,7 +34,7 @@ for (i = 1; i < argc; i++)
 sum += atoi(argv[i]);
     }
 
-if (checkString(argv[i]) )
+if (checkString(argv[1]) )
   {
       printf("%d\n", sum);
   }
