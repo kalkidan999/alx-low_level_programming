@@ -8,14 +8,14 @@
  */
 int checkString(char *Str)
 {
-char *ptr = Str;
-while (*ptr)
+int i;
+i = 0;
+while (Str[i] != '\0')
 {
-if (isdigit(ptr))
-{
+if (isdigit(Str[i]))
+i++;
+else
 return (0);
-}
-ptr++;
 }
 return (1);
 }
