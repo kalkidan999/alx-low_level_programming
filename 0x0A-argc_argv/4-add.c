@@ -34,7 +34,7 @@ for (i = 1; i < argc; i++)
 {
 sum += atoi(argv[i]);
     }
-for (j = 0; j < argc; ++j)
+for (j = 0; j < 10; ++j)
 {
 if (checkString(argv[j]) )
   {
