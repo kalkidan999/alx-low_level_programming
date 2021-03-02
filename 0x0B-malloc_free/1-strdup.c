@@ -16,7 +16,7 @@ if (p == '\0')
 return (0);
 for (i = 0; p[i] != '\0'; i++)
 	{
-p[i] = str[i];
+str[i] = p[i];
 	}
-return (p);
+return (str);
 }
