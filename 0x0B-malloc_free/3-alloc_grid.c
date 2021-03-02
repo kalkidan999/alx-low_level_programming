@@ -27,5 +27,5 @@ return (0);
 for (height = 0; height < h; height++)
 for (i = 0; i < width; i++)
 p[height][i] = 0;
-return (p);
+return (*p);
 }
