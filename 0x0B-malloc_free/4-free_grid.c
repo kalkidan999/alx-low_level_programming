@@ -25,6 +25,6 @@ return (0);
 for (height = 0; height < h; height++)
 for (i = 0; i < width; i++)
 grid[height][i] = 0;
-return (p);
 free(p);
+return (p);
 }
