@@ -12,7 +12,7 @@ int i;
 int j;
 i = 0;
 char *p;
-if (!str)
+if (!s1 || !s2)
 return (NULL);
 while (s1[i] != '\0')
 {
@@ -29,6 +29,7 @@ while (s2[j] != '\0')
 s1[i] = s2[j];
 i++;
 j++;
+p = s1;
 }
 return (s1);
 }
