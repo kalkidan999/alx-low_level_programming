@@ -32,5 +32,5 @@ i++;
 j++;
 tmp = s1;
 }
-return (s1);
+return (tmp);
 }
