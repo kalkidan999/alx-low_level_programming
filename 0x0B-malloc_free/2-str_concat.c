@@ -16,8 +16,8 @@ if (p == NULL)
 {
 return (NULL);
 }
-p = s1;
+
 while(*(++s1));
 while(*(s1++) = *(s2++));
-    return (p);
+    return (0);
 }
