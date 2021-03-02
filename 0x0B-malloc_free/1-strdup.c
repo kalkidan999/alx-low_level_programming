@@ -9,15 +9,16 @@ char *_strdup(char *str)
 {
 int i;
 char *p;
-if (str == NULL)
-return (0);
+if (!str)
+return (NULL);
 p = malloc(sizeof(char));
-if (p == '\0')
-return (0);
+if (p == NULL)
+{
+return (NULL);
+}
 for (i = 0; p[i] != '\0'; i++)
 {
 str[i] = p[i];
 }
-str[i] = '\0';
 return (str);
 }
