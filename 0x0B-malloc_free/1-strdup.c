@@ -23,7 +23,7 @@ return (NULL);
 }
 for (i = 0; i <= j; i++)
 {
-str[i] = p[i];
+p[i] = str[i];
 }
-return (str);
+return (p);
 }
