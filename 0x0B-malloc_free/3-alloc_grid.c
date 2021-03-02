@@ -15,12 +15,12 @@ width = 0;
 height = 0;
 if (width <= 0 || height <= 0)
 return (0);
-p = malloc(height * sizeof(int *));
+p = malloc(height* sizeof(int *));
 if (!p)
 return (0);
 while (height-- > 0)
 {
-p[height] = malloc(width * sizeof(int));
+p[height] = malloc(width* sizeof(int));
 if (!p[height])
 return (0);
 }
