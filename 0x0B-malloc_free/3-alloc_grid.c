@@ -19,7 +19,7 @@ if (p == NULL)
 {
 return (NULL);
 }
-for (int i=0; i < height; ++i)
+for (i=0; i < height; ++i)
     {
         p[i] = i*width;
     }
