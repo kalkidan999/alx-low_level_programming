@@ -19,5 +19,5 @@ for (i = 0; i < size; i++)
 {
 p[i] = c;
 }
-return (0);
+return (p);
 }
