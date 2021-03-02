@@ -14,7 +14,6 @@ return (0);
 p = malloc(sizeof(char));
 if (p == '\0')
 return (0);
-int i;
 for (i = 0; p[i] != '\0'; i++)
 	{
 p[i] = str[i];
