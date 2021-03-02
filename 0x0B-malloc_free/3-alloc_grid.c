@@ -23,5 +23,5 @@ for (i=0; i < height; ++i)
     {
         p[i] = i*width;
     }
-    return (p);
+    return (*p);
 }
