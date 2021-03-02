@@ -16,17 +16,17 @@ if (p == NULL)
 {
 return (NULL);
 }
-p = s1;
+p = s2;
 while (*s1)
 {
 s1++;
 }
 while (*s2)
 {
-*s1 = *s2;
-s1++;
+*s2 = *s1;
 s2++;
+s1++;
 }
-*s1 = '\0';
+*s2 = '\0';
     return (p);
 }
