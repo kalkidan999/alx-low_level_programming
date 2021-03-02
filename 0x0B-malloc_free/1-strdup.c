@@ -12,7 +12,7 @@ int j = 0;
 char *p;
 if (!str)
 return (NULL);
-while(*(str + j)
+while(*(str + j))
 {
 j++;
 }
