@@ -16,11 +16,11 @@ if (p == NULL)
 {
 return (NULL);
 }
+p = s1;
 while (*s1)
 {
 s1++;
 }
-p = s1;
 while (*s2)
 {
 *s1 = *s2;
