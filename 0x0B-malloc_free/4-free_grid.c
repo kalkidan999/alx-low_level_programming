@@ -1,15 +1,16 @@
-#include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
-*alloc_grid - change value using
-*@width: manipulates width
-*@height: manipulates height
-*Return: succcess
+* free_grid - free matrix pointer
+* @grid: matrix
+* @height: height
+*Return: pointer to the matrix
 */
 void free_grid(int **grid, int height)
 {
 int i;
-for (i = 0; i < height; i++)
+for (i = 0; i < height; ++i)
 {
 free(grid[i]);
 }
