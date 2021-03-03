@@ -22,6 +22,7 @@ p[height] = malloc(width * sizeof(int));
 if (!p[height])
 free(p[height]);
 free(p);
+return (0);
 }
 for (height = 0; height < h; height++)
 for (i = 0; i < width; i++)
