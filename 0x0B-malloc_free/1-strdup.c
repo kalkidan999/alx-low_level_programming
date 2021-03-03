@@ -1,29 +1,33 @@
 #include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
-*_strdup - change value using
-*@str: manipulates size
-*Return: memory
+* _strdup - point new allocated pointer
+* @str: string
+* Return: pointer
 */
 char *_strdup(char *str)
 {
+int str_size;
 int i;
-int j = 0;
 char *p;
-if (!str)
+str_size = 0;
+if (str == 0)
 return (0);
-while (*(str + j))
+while (str[str_size] != '\0')
 {
-j++;
+str_size++;
 }
-p = malloc(sizeof(char));
+str_size++;
+p = malloc(str_size *sizeof(char));
 if (p == 0)
-{
 return (0);
-}
-for (i = 0; i <= j; i++)
+i = 0;
+while (str[i] != '\0')
 {
 p[i] = str[i];
+i++;
 }
+p[i] = '\0';
 return (p);
 }
