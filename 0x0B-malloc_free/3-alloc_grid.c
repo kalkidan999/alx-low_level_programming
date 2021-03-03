@@ -20,6 +20,12 @@ while (height-- > 0)
 {
 p[height] = malloc(width * sizeof(int));
 if (!p[height])
+while (height >= 0)
+      {
+        free(p[height]);
+        height--;
+      }
+      free(p);
 return (0);
 }
 for (height = 0; height < h; height++)
