@@ -11,15 +11,15 @@ int i;
 int j = 0;
 char *p;
 if (!str)
-return (NULL);
+return (0);
 while (*(str + j))
 {
 j++;
 }
 p = malloc(sizeof(char));
-if (p == NULL)
+if (p == 0)
 {
-return (NULL);
+return (0);
 }
 for (i = 0; i <= j; i++)
 {
