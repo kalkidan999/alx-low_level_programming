@@ -38,8 +38,10 @@ if (!s2)
 s2 = "";
 else
 b = _strlen(s2);
-while (b < n)
+while (n < b)
+{
 p = malloc(a + b + 1);
+}
 if (!p)
 return (0);
 tmp = p;
