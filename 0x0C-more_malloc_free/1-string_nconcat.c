@@ -9,16 +9,12 @@
 
 int _strlen(char *s)
 {
-	int l = 0;
-
-	while (*s != '\0')
-	{
-		s++;
-		l++;
-	}
-	return (l);
+int i;
+i = 0;
+while (s[i] != '\0')
+i++;
+return (i);
 }
-
 /**
 *string_nconcat - change value using
 *@s1: manipulates char1
