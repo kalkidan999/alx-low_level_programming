@@ -9,6 +9,7 @@
  * Return: returns pointer to grid created
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
+{
 unsigned int i;
 char *p;
 if (nmemb == 0 || size == 0)
@@ -19,3 +20,4 @@ return (NULL);
 for (i = 0; i != size; i++)
 *(p + (size * i)) = 0;
 return (p);
+}
