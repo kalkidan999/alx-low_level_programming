@@ -34,7 +34,7 @@ if (!s2)
 s2 = "";
 else
 b = _strlen(s2);
-if ((int) n > b)
+if (n > b)
 n = b;
 p = malloc(a + n + 1);
 if (p == NULL)
