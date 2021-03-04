@@ -16,7 +16,7 @@ return (NULL);
 }
 p = malloc((b) * sizeof(*p));
 if (p == NULL)
-return (0);
+exit (98);
 for (i = 0; i < b; i++)
 {
 p[i] = b;
