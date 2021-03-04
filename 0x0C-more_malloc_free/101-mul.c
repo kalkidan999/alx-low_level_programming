@@ -30,7 +30,8 @@ int _atoi(char *s)
  */
 int main(int argc, char *argv[])
 {
-int a,b, mul, i, j;
+int a,b, i, j;
+unsigned long mul;
 if (argc != 3)
 {
 printf("Error\n");
