@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdlib.h>
-
 /**
  * _calloc - mallocs assigned memory and sets to zero
  *
@@ -8,7 +7,6 @@
  * @size: size of nmemb
  * Return: returns pointer to allocated space, or NULL on failure
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 unsigned int i;
