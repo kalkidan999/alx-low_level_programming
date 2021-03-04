@@ -29,7 +29,7 @@ int _strlen(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int a, b, i;
-char *p, *tmp;
+char *p;
 if (!s1)
 s1 = "";
 else
@@ -51,7 +51,7 @@ for (i = 0; i < a; i++)
 
 	for (; i < (a + n); i++)
 	{
-		p[i] = s2[i - size1];
+		p[i] = s2[i - a];
 	}
 	p[i] = '\0';
 
