@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include "holberton.h"
 #include <stdlib.h>
-#include <string.h>
 /**
 * malloc_checked - crete memory allocation
 * @b: int
