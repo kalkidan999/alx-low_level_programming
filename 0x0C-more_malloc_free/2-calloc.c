@@ -1,13 +1,14 @@
-#include <stdlib.h>
 #include "holberton.h"
+#include <stdlib.h>
 
 /**
- * _calloc - allocate a 2d integer grid
+ * _calloc - mallocs assigned memory and sets to zero
  *
- * @nmemb: block of memory
- * @size: size of grid
- * Return: returns pointer to grid created
+ * @nmemb: number of memory spaces
+ * @size: size of nmemb
+ * Return: returns pointer to allocated space, or NULL on failure
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 unsigned int i;
