@@ -38,7 +38,7 @@ if (n >= b)
 n = b;
 p = malloc(a + n + 1);
 if (p == NULL)
-return (0);
+return (NULL);
 for (i = 0; i < a; i++)
 {
 p[i] = s1[i];
