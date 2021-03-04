@@ -38,22 +38,19 @@ if (!s2)
 s2 = "";
 else
 b = _strlen(s2);
-	if (n > b)
-	n = b;
-
+if (n > b)
+n = b;
 p = malloc(a + n + 1);
-if (!p)
+if (p == NULL)
 return (0);
 for (i = 0; i < a; i++)
-	{
-		p[i] = s1[i];
-	}
-
-	for (; i < (a + n); i++)
-	{
-		p[i] = s2[i - a];
-	}
-	p[i] = '\0';
-
+{
+p[i] = s1[i];
+}
+for (; i < (a + n); i++)
+{
+p[i] = s2[i - a];
+}
+p[i] = '\0';
 return (p);
 }
