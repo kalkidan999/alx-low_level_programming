@@ -38,13 +38,16 @@ if (!s2)
 s2 = "";
 else
 b = _strlen(s2);
-p = malloc(a + b + 1);
+	if (n > b)
+	n = b;
+
+p = malloc(a + n + 1);
 if (!p)
 return (0);
 tmp = p;
 while (*s1)
 *tmp++ = *s1++;
-while ((*(tmp + n) = *(s2 + n)))
+while ((*tmp++ = *s2++))
 ;
 return (p);
 }
