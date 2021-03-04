@@ -36,7 +36,7 @@ else
 b = _strlen(s2);
 if (n > b)
 n = b;
-p = malloc(a + n + 1);
+p = malloc((a+ n + 1) * sizeof(char));
 if (p == NULL)
 return (NULL);
 for (i = 0; i < a; i++)
