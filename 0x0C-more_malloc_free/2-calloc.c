@@ -3,22 +3,27 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _calloc - mallocs assigned memory and sets to zero
+ * _calloc - prints memory for an array. copies the calloc function
+ * @nmemb: unsigned int
+ * @size: unsigned int
  *
- * @nmemb: number of memory spaces
- * @size: size of nmemb
- * Return: returns pointer to allocated space, or NULL on failure
+ * Return: pointer to the allocated memory
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int i;
-char *p;
-if (nmemb == 0 || size == 0)
-return (NULL);
-p = malloc(nmemb * size);
-if (p == NULL)
-return (NULL);
-for (i = 0; i != size; i++)
-*(p + (size * i)) = 0;
-return (p);
+	unsigned int i;
+	char *s;
+
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+	s = malloc(size * nmemb);
+	if (s == NULL)
+		return (NULL);
+	i = 0;
+	while (i < nmemb * size)
+	{
+		s[i] = 0;
+		i++;
+	}
+	return (s);
 }
