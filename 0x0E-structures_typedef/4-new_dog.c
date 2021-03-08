@@ -22,7 +22,7 @@ if (d == NULL)
 free(d);
 return (NULL);
 }
-d->name = malloc(i * sizeof(d->name));
+d->name = malloc(i *sizeof(d->name));
 if (d->name == NULL)
 {
 free(d->name);
@@ -32,7 +32,7 @@ return (NULL);
 for (k = 0; k <= i; k++)
 d->name[k] = name[k];
 d->age = age;
-d->owner = malloc(j * sizeof(d->owner));
+d->owner = malloc(j *sizeof(d->owner));
 if (d->owner == NULL)
 {
 free(d->owner);
