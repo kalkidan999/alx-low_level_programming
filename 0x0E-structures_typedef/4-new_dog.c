@@ -3,7 +3,9 @@
 #include <stdlib.h>
 /**
  * print_dog - check the code for Holberton School students.
- * @d: pointer
+ * @name: naming
+ * @age: age number
+ * @owner: ownership
  * Return: Always 0.
  */
 dog_t *new_dog(char *name, float age, char *owner)
