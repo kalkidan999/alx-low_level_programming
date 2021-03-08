@@ -6,6 +6,7 @@
  * Return: Always 0.
  */
 dog_t *new_dog(char *name, float age, char *owner)
+struct dog_t *d;
 if (d)
 {
 if (d->name != NULL)
