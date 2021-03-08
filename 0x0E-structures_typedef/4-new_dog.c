@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * print_dog - check the code for Holberton School students.
+ * new_dog - check the code for Holberton School students.
  * @name: naming
  * @age: age number
  * @owner: ownership
