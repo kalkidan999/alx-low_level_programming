@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <studio.h>
+#include <stdio.h>
 /**
  * print_dog - check the code for Holberton School students.
  * @d: pointer
@@ -27,4 +27,4 @@ else
 printf("Owner: (nil)\n");
 }
 }
-
+}
