@@ -1,9 +1,4 @@
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int ABS(int x)
-{
-return ((x<0)?(-x):(x));
-}
+#ifndef ABS_H
+#define ABS_H
+#define ABS(X) ((X < 0) ? (-X) : (X))
+#endif
