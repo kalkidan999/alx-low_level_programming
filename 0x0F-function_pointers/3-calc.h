@@ -1,5 +1,5 @@
-#ifndef FILE
-#define FILE
+#ifndef FILE_H
+#define FILE_H
 /**
  * struct op - Structure op
  * @op: operator
