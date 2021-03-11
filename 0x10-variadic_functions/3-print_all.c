@@ -17,28 +17,32 @@ switch (format[j])
 case 'c':
 switch (start)
 {
-case 1: printf(", "); }
+case 1: printf(", ");
+}
 start = 1;
 printf("%c", va_arg(arguments, int));
 break;
 case 'i':
 switch (start)
 {
-case 1: printf(", "); }
+case 1: printf(", ");
+}
 start = 1;
 printf("%i", va_arg(arguments, int));
 break;
 case 'f':
 switch (start)
 {
-case 1: printf(", "); }
+case 1: printf(", ");
+}
 start = 1;
 printf("%f", va_arg(arguments, double));
 break;
 case 's':
 switch (start)
 {
-case 1: printf(", "); }
+case 1: printf(", ");
+}
 start = 1;
 p = va_arg(arguments, char*);
 if (p)
