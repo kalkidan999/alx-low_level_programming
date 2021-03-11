@@ -10,29 +10,46 @@ unsigned int j = 0;
 va_list arguments;
 va_start(arguments, format);
 while (format && format[j] != '\0')
- {
- if (*format == 'd')
- {
- int i = va_arg(arguments, int);
- printf("%d\n", i);
- }
-if (*format == 'c')
 {
-int c = va_arg(arguments, int);
-printf("%c\n", c);
+switch (format[j])
+{
+case 'c':
+switch (start)
+{
+case 1: printf(", "); }
+start = 1;
+printf("%c", va_arg(arguments, int));
+break;
+case 'i':
+switch (start)
+{
+case 1: printf(", "); }
+start = 1;
+printf("%i", va_arg(arguments, int));
+break;
+case 'f':
+switch (start)
+{
+case 1: printf(", "); }
+start = 1;
+printf("%f", va_arg(arguments, double));
+break;
+case 's':
+switch (start)
+{
+case 1: printf(", "); }
+start = 1;
+p = va_arg(arguments, char*);
+if (p)
+{
+printf("%s", p);
+break;
 }
-if (*format == 'f')
-{
-double d = va_arg(arguments, double);
-printf("%f\n", d);
+printf("%p", p);
+break;
 }
-if (*format == 's')
-{
-int *s = va_arg(arguments, int);
-printf("%c\n", *s);
- }
 j++;
- }
+}
 printf("\n");
 va_end(arguments);
 }
