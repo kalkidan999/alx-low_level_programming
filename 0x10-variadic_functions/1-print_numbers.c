@@ -3,7 +3,7 @@
 /**
  * print_numbers - print numbers.
  * @separator: number
- * @n: number 
+ * @n: number
  * Return: Always 0.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
