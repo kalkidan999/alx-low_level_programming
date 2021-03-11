@@ -6,10 +6,6 @@
  */
 void print_all(const char * const format, ...)
 {
-char c;
-int i = 0;
-float f;
-char *s;
 va_list arguments;
 va_start(arguments, format);
  while (*format != '\0')
@@ -31,8 +27,8 @@ printf("%f\n", d);
 }
 if (*format == 's')
 {
-int s = va_arg(args, int);
-printf("%s\n", s);
+int *s = va_arg(args, int);
+printf("%s\n", *s);
  }
  ++format;
  }
