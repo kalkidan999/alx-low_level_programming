@@ -15,7 +15,7 @@ for (i = 0; i < n; i++)
 {
 printf("%d", i);
 if (i < n)
-printf("%c", separator);
+printf("%c", *separator);
 }
 printf("\n");
 va_end(arguments);
