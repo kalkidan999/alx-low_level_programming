@@ -6,7 +6,8 @@
  */
 void print_all(const char * const format, ...)
 {
-unsigned int j = 0;
+unsigned int j = 0, start = 0;
+char *p;
 va_list arguments;
 va_start(arguments, format);
 while (format && format[j] != '\0')
