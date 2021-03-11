@@ -13,18 +13,11 @@ va_list arguments;
 va_start(arguments, n);
 if (n != 0)
 {
-for (i = 0; (i < n - 1); i++)
+for (i = 0; i < n ; i++)
 {
-if (separator != NULL)
-{
-printf("%d%s", va_arg(arguments, char), separator);
+if (separator != NULL && i < n - 1)
+printf("%s", separator);
 }
-else
-{
-printf("%d", va_arg(arguments, char));
-}
-}
-printf("%d", va_arg(arguments, char));
 va_end(arguments);
 }
 printf("\n");
