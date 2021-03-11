@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * sum_them_all - check the sum.
+ * @n: number
  * Return: Always 0.
  */
 int sum_them_all(const unsigned int n, ...)
@@ -18,6 +18,6 @@ for (i = 0; i < n; i++)
 {
 sum += va_arg(arguments, int);
 }
-va_end (arguments);
+va_end(arguments);
 return (sum);
 }
