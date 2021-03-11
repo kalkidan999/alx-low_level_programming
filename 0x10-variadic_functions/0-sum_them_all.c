@@ -12,7 +12,7 @@ va_list arguments;
 va_start(arguments, n);
 if (n == 0)
 {
-return 0;
+return (0);
 }
 for (i = 0; i < n; i++)
 {
