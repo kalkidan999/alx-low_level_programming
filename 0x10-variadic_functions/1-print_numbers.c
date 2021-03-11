@@ -11,9 +11,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 unsigned int i;
 va_list arguments;
 va_start(arguments, n);
-for (i = 0; i < n; i++)
+for (i = 0; i < n; va_arg(arguments, int))
 {
-va_arg(arguments, int);
+printf("%d", i);
 if (i < n)
 printf("%c", *separator);
 }
