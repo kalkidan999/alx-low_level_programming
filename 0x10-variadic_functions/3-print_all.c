@@ -12,25 +12,24 @@ va_start(arguments, format);
  {
  if (*format == 'd')
  {
- int i = va_arg(args, int);
+ int i = va_arg(arguments, int);
  printf("%d\n", i);
  }
 if (*format == 'c')
 {
-int c = va_arg(args, int);
+int c = va_arg(arguments, int);
 printf("%c\n", c);
 }
 if (*format == 'f')
 {
-double d = va_arg(args, double);
+double d = va_arg(arguments, double);
 printf("%f\n", d);
 }
 if (*format == 's')
 {
-int *s = va_arg(args, int);
-printf("%s\n", *s);
+int *s = va_arg(arguments, int);
+printf("%c\n", *s);
  }
- ++format;
  }
-va_end(args);
+va_end(arguments);
 }
