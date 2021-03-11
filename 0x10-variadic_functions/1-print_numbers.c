@@ -13,7 +13,7 @@ va_list arguments;
 va_start(arguments, n);
 for (i = 0; i < n; i++)
 {
-printf("%d", i);
+va_arg(arguments, int);
 if (i < n)
 printf("%c", *separator);
 }
