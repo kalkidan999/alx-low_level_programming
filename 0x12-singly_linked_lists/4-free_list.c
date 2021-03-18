@@ -12,6 +12,6 @@ list_t *temp;
 while (head != NULL)
 head = head->next;
 free(head->str);
-free(temp);
 temp = head;
+free(temp);
 }
