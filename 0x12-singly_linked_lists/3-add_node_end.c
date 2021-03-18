@@ -13,7 +13,7 @@ unsigned int length = 0;
 list_t *newnode;
 list_t *temp = *head;
 while (str[length])
-lengh++;
+length++;
 newnode = malloc(sizeof(list_t));
 if (!newnode)
 {
