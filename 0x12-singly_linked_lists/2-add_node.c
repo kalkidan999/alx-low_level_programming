@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <string.h>
 /**
 * list_len - prints list
 * @h: pointer
