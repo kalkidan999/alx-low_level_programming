@@ -3,6 +3,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 int _putchar(char c);
+/**
+ * struct list_s - struct list
+ *
+ * Return: Always 0.
+ */
 typedef struct list_s
 {
 char *str;
