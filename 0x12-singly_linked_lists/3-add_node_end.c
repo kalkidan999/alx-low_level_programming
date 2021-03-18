@@ -27,8 +27,6 @@ if (*head == NULL)
 *head = newnode;
 return (newnode);
 }
-else
-{
 while (temp->next != NULL)
 {
 temp = temp->next;
