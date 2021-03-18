@@ -7,17 +7,13 @@
 */
 size_t print_list(const list_t *h)
 {
-struct list_t {
-int data;
-list_t *next;
-};
-h first = NULL;
-first = malloc(sizeof(list_t));
-first->next = NULL;
-first->data = list_t;
-h temp = malloc(sizeof(list_t);
-temp->next = first;
-first = temp;
-printf("%s", first->data);
-return (0);
+int len = 0;
+while (h)
+{
+len++;
+h = malloc(sizeof(list_t));
+printf("%d", h->val);
+h = h->next;
+}
+return (len);
 }
