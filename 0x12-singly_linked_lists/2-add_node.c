@@ -7,9 +7,9 @@
 */
 list_t *add_node(list_t **head, const char *str)
 {
-struct list_t *newnode = malloc(sizeof(list_t));
-char *target = strdup(str);
-newnode->str = target;
+list_t *newnode;
+newnode = malloc(sizeof(list_t));
+newnode->str = strdup(str);
 newnode->len = len;
 newnode->next = (*head);
 (*head) = newnode;
