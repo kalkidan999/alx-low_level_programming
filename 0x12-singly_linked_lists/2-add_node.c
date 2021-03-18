@@ -13,6 +13,10 @@ list_t *newnode;
 while(str[len])
 len++;
 newnode = malloc(sizeof(list_t));
+if (!newnode)
+{
+return (NULL);
+}
 newnode->str = strdup(str);
 newnode->len = len;
 newnode->next = (*head);
