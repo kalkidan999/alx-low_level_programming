@@ -7,11 +7,11 @@
 */
 list_t *add_node(list_t **head, const char *str)
 {
-head = NULL;
 struct list_t *newnode = malloc(sizeof(list_t));
-char *target = strdup(*str);
-newnode->len = target;
-newnode->next = head;
-head = newnode;
-return (head);
+char *target = strdup(str);
+newnode->str = target;
+newnode->len = len;
+newnode->next = (*head);
+(*head) = newnode;
+return (*head);
 }
