@@ -5,8 +5,8 @@
 int _putchar(char c);
 typedef struct list_s
 {
-char *s;
-unsigned int val;
+char *str;
+unsigned int len;
 struct list_s *next;
 } list_t;
 char *create_array(unsigned int size, char c);
