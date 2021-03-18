@@ -1,8 +1,7 @@
 #include "lists.h"
 /**
-* print_list - prints list
-* @size: int
-* @c: array of strings
+* print_list - prints n count n list
+* @h: pointer to first
 *Return: pointer
 */
 size_t print_list(const list_t *h)
