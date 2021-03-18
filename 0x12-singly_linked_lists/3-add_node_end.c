@@ -21,18 +21,19 @@ return (NULL);
 }
 newnode->str = strdup(str);
 newnode->len = len;
-newnode->next = (*head);
-(*head) = newnode;
-return (*head);
+newnode->next = NULL;
 if (*head == NULL)
 {
 *head = newnode;
 return (newnode);
 }
+else
+{
 while (temp->next != NULL)
 {
 temp = temp->next;
 temp->next = newnode;
 return (newnode);
+}
 }
 }
