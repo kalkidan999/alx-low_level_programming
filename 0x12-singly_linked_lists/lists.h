@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 int _putchar(char c);
+struct list_t {
+int val;
+struct list_t *next;
+};
 typedef struct list_t list_t;
 char *create_array(unsigned int size, char c);
 size_t print_list(const list_t *h);
