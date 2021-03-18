@@ -29,9 +29,10 @@ if (*head == NULL)
 *head = newnode;
 return (newnode);
 }
-while(temp->next != NULL)
+while (temp->next != NULL)
 {
 temp = temp->next;
-return(temp);
+temp->next = newnode;
+return (newnode);
 }
 }
