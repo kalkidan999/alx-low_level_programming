@@ -10,10 +10,12 @@ size_t print_list(const list_t *h)
 int len = 0;
 while (h)
 {
-len++;
-h = malloc(sizeof(list_t));
-printf("%d", h->val);
+if (!h->s)
+printf("[0] (nil)\n");
+else
+printf("[%u] %s\n", h->val, h->s);
 h = h->next;
+len++;
 }
 return (len);
 }
