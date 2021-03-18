@@ -5,7 +5,9 @@
 int _putchar(char c);
 /**
  * struct list_s - struct list
- *
+ * @str: string
+ * @len: length
+ * @next: pointer
  * Return: Always 0.
  */
 typedef struct list_s
