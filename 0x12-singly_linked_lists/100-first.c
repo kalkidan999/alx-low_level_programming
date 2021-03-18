@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(void) __attribute__ ((constructor));
+void stat(void) __attribute__ ((constructor));
 /**
  * stat - prints a sentence before the main
  * function is executed
