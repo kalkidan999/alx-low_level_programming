@@ -24,10 +24,9 @@ newnode->len = len;
 newnode->next = (*head);
 (*head) = newnode;
 return (*head);
-}
-if (head == NULL)
+if (*head == NULL)
 {
-head = newnode;
+*head = newnode;
 return (newnode);
 }
 while(temp->next != NULL)
