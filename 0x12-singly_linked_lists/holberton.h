@@ -2,12 +2,6 @@
 #define HOLBERTON_H
 #include <stdlib.h>
 #include <stdio.h>
-typedef struct node *nodeptr;
-struct node {
-int data;
-nodeptr next;
-};
-typedef struct node node;
 int _putchar(char c);
 char *create_array(unsigned int size, char c);
 size_t print_list(const list_t *h);
