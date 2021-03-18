@@ -7,11 +7,10 @@
 */
 size_t print_list(const list_t *h)
 {
-struct node {
+struct list_t {
 int data;
 h next;
 };
-typedef struct node node;
 h first = NULL;
 first = malloc(sizeof(node));
 first->next = NULL;
