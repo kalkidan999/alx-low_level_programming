@@ -2,6 +2,20 @@
 #define HOLBERTON_h
 #include <stdlib.h>
 #include <stdarg.h>
+#include <stdio.h>
+/**
+ * struct list_s - struct list
+ * @str: string
+ * @len: length
+ * @next: pointer
+ * Return: Always 0.
+ */
+typedef struct list_s
+{
+char *str;
+unsigned int len;
+struct list_s *next;
+} listint_t;
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
