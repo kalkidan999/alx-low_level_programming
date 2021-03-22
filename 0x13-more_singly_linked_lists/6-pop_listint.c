@@ -12,8 +12,8 @@ if (*head == NULL)
 {
 return (0);
 }
-temp = head->next;
-retval = head->n;
+temp = (*head)->next;
+retval = (*head)->n;
 free(*head);
 *head = temp;
 return (retval); 
