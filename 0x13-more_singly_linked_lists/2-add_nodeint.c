@@ -6,8 +6,13 @@
 */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-n->val = val;
-n->next = *head;
+listint_t newnode; 
+if (!newnode)
+{
+return (NULL);
+}
+newnode->val = n;
+newnode->next = *head;
 *head = n;
 return (n);
 }
