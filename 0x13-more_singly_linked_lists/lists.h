@@ -12,7 +12,7 @@
  */
 typedef struct list_s
 {
-char *head;
+char *hello;
 unsigned int n;
 struct list_s *next;
 } listint_t;
