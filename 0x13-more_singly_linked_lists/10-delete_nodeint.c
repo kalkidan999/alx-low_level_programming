@@ -13,5 +13,5 @@ if (index == 0)
 newnode->next = *head;
 (*head)->next = newnode->next;
 free(newnode);
-return (newnode);
+return (1);
 }
