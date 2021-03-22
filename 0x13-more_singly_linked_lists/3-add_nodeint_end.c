@@ -19,6 +19,5 @@ while (*head)
 newnode->next = malloc(sizeof(listint_t));
 newnode->next->n = n;
 newnode->next->next = NULL;
-*head = newnode;
 return (*head);
 }
