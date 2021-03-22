@@ -10,10 +10,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 listint_t *newnode;
 newnode = malloc(sizeof(listint_t));
 if (index == 0)
-{
 newnode->next = *head;
 *head = newnode;
 free(*head);
-return (*head);
-}
+return (*newnode);
 }
