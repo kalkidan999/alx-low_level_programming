@@ -15,8 +15,6 @@ if (*head != NULL)
 {
 return (*head);
 }
-else 
-{
 while (*head)
 {
 newnode->next = malloc(sizeof(listint_t));
