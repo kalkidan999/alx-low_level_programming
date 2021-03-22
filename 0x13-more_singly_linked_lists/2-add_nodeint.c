@@ -13,8 +13,8 @@ if (!newnode)
 {
 return (NULL);
 }
-newnode->val = n;
-newnode->next = *head;
-*head = n;
+newnode->n = n;
+newnode->next = (*head);
+*head = newnode;
 return (*head);
 }
