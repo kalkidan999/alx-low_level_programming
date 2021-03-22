@@ -15,7 +15,8 @@ return (NULL);
 }
 while (temp != NULL)
 if (count == index)
-return (temp->n); 
+temp = temp->n;
+return (temp); 
 count++;
 temp = temp->next;
 return(temp);
