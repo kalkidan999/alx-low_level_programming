@@ -16,7 +16,6 @@ unsigned int i = 0;
 		i++;
 	}
 temp->n = n;
-temp->next = *head
-*head = temp;
+temp->next = *head;
 return (temp);
 }
