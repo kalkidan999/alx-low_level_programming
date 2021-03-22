@@ -10,7 +10,7 @@ size_t i = 0;
 while (h)
 {
 printf("%i\n", h->n);
-h = h.next;
+h = h->next;
 i++;
 }
 return (i);
