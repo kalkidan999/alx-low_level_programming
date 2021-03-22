@@ -10,7 +10,7 @@ size_t i = 0;
 while (h)
 {
 printf("%u %s\n", h->n, h->new);
-h-> next;
+h = h->next;
 i++;
 }
 return (i);
