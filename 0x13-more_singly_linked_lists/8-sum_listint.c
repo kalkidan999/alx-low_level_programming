@@ -11,6 +11,10 @@ while (head)
 {
 sum += head->n;
 head = head->next;
+if (head == NULL)
+{
+return (0);
+}
 }
 return (sum);
 }
