@@ -13,8 +13,8 @@ return (0);
 }
 while (h)
 {
-printf("%i\n", h->n);
-h = h->next;
+printf("%i\n", (*h).n);
+h = (*h).next;
 i++;
 }
 return (i);
