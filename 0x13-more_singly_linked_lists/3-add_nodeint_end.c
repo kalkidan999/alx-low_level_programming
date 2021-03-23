@@ -14,8 +14,11 @@ if (!newnode)
 return (NULL);
 newnode->n = n;
 newnode->next = NULL;
-while (temp->next != NULL)
+while (temp && temp->next)
 temp = temp->next;
+if (temp)
 temp->next = newnode;
+else
+*head = newnode;
 return (newnode);
 }
