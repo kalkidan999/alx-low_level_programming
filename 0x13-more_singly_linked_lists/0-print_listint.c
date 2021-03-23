@@ -15,7 +15,6 @@ for (i = 0; h != NULL; i++)
 {
 printf("%i\n", (*h).n);
 h = (*h).next;
-i++;
 }
 return (i);
 }
