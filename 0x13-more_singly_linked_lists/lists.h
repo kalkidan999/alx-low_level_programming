@@ -5,8 +5,7 @@
 #include <stdio.h>
 /**
  * struct list_s - struct list
- * @str: string
- * @len: length
+ * @n: value
  * @next: pointer
  * Return: Always 0.
  */
