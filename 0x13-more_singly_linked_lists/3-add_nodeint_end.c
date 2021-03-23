@@ -12,10 +12,9 @@ listint_t *temp = *head;
 newnode = malloc(sizeof(listint_t));
 newnode->n = n;
 newnode->next = NULL;
-if (*head == NULL)
+if (!newnode)
 {
-*head = newnode;
-return (newnode);
+return (NULL);
 }
 while (temp->next != NULL)
 temp = temp->next;
