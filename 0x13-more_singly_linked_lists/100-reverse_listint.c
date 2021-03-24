@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * reverse_listint - function that reverses
- * @head: double pointer 
+ * @head: double pointer
  * Return: a pointer
  */
 listint_t *reverse_listint(listint_t **head)
