@@ -16,5 +16,5 @@ temp = (*head)->next;
 retval = (*head)->n;
 free(*head);
 *head = temp;
-return (retval); 
+return (retval);
 }
