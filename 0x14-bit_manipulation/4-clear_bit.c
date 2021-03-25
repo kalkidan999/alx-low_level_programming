@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * clear_bit - sets index to 0 
+ * clear_bit - sets index to 0
  * @n: containing the decimal number
  * @index: containing the index
  * Return: the converted number
