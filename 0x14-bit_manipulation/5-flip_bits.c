@@ -5,9 +5,9 @@
  * @n: containing the number
  * Return: the converted number
  */
-int countSetBits(int n)
+int countSetBits(unsigned long int n)
 {
-int count = 0;
+unsigned long int count = 0;
 while (n > 0)
 {
 count++;
