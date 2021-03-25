@@ -13,6 +13,8 @@ while (n > 0)
 count++;
 n &= (n - 1);
 }
+if (count > sizeof(n) * 8)
+return (-1);
 return (count);
 }
 /**
