@@ -7,7 +7,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-ssize_t letterstwo;
+ssize_t nletters;
 int fd;
 char *text;
 if (!filename)
@@ -21,15 +21,15 @@ if (fd == -1)
 free(text);
 return (0);
 }
-letterstwo = read(fd, text, sizeof(char) * letters);
-if (letterstwo == -1)
+nletters = read(fd, text, sizeof(char) * letters);
+if (nletters == -1)
 {
 free(text);
 close(fd);
 return (0);
 }
-letterstwo = write(STDOUT_FILENO, text, letterstwo);
-if (letterstwo == -1)
+nletters = write(STDOUT_FILENO, text, nletters);
+if (nletters == -1)
 {
 free(text);
 close(fd);
@@ -37,5 +37,5 @@ return (0);
 }
 free(text);
 close(fd);
-return (letterstwo);
+return (nletters);
 }
