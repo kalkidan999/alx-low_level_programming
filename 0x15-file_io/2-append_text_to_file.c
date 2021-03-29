@@ -39,6 +39,8 @@ close(fd);
 return (-1);
 }
 }
+if (text_content == NULL)
+text_content = "";
 close(fd);
 return (1);
 }
