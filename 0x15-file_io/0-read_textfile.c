@@ -11,18 +11,17 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 int count, fd;
-char buf[1024];
-fd = open(filename, 0_RDWR);
-if (filename == -1 || filename == NULL)
+fd = open(filename, O_RDWR);
+if (*filename == -1 || *filename == NULL)
 {
 return (0);
 }
-while (letter != '\0')
+while (letters != '\0')
 {
 count++;
-letter++;
+letters++;
 }
-read(fd, buf , count);
+read(fd, filename , count);
 close(fd);
 return (0);
 }
