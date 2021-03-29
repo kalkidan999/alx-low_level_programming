@@ -12,7 +12,7 @@ size_t read_textfile(const char *filename, size_t letters)
 {
 int count, fd;
 fd = open(filename, O_RDWR);
-if (*fd = -1 || *fd == NULL)
+if (fd = -1 || fd == NULL)
 {
 return (0);
 }
