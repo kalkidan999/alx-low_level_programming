@@ -8,20 +8,38 @@
  * @letters: string containing the binary number
  * Return: the converted number
  */
-size_t read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
+ssize_t letterstwo;
 int count, fd;
-fd = open(filename, O_RDWR);
-if (fd = -1 || fd == NULL)
+char *text;
+text = malloc(sizeof(char) * letters + 1);
+if (text == NULL)
 {
+free(text);
 return (0);
 }
-while (letters != '\0')
+fd = open(filename, O_RDONLY);
+if (fd == -1)
 {
-count++;
-letters++;
+free(text);
+return (0);
 }
-read(fd, filename , count);
+letterstwo = read(fd, text , count);
+if (letterstwo == -1)
+{
+free(text);
 close(fd);
 return (0);
+}
+letterstwo = write(STDOUT_FILENO, text , letterstwo);
+if (letterstwo == -1)
+{
+free(text);
+close(fd);
+return (0);
+}
+free(text);
+close(fd);
+return (letterstwo);
 }
