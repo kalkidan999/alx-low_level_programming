@@ -22,7 +22,7 @@ if (fd == -1)
 free(text);
 return (0);
 }
-letterstwo = read(fd, text , count);
+letterstwo = read(fd, text , sizeof(char) * letters);
 if (letterstwo == -1)
 {
 free(text);
