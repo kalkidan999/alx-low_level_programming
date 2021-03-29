@@ -8,11 +8,11 @@
  * @letters: string containing the binary number
  * Return: the converted number
  */
-ssize_t read_textfile(const char *filename, size_t letters)
+size_t read_textfile(const char *filename, size_t letters)
 {
 int count, fd;
 fd = open(filename, O_RDWR);
-if (*filename == -1 || *filename == NULL)
+if (*fd = -1 || *fd == NULL)
 {
 return (0);
 }
