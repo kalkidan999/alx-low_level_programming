@@ -23,4 +23,6 @@ count++;
 letter++;
 }
 read(fd, buf , count);
+close(fd);
+return (0);
 }
