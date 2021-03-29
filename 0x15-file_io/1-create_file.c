@@ -32,7 +32,7 @@ return (-1);
 }
 if (text_content)
 {
-letterstwo = read(fd, text_content , _strlen(text_content));
+letterstwo = write(fd, text_content , _strlen(text_content));
 if (letterstwo == -1)
 {
 close(fd);
