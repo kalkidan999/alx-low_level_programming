@@ -1,7 +1,4 @@
 #include "holberton.h"
-#include <unistd.h> 
-#include <fcntl.h>
-#include <stdlib.h>
 /**
  * read_textfile - converts a binary number to unsigned int
  * @filename: pointer to string
