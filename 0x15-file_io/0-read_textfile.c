@@ -25,6 +25,7 @@ letterstwo = read(fd, text, sizeof(char) * letters);
 if (letterstwo == -1)
 {
 free(text);
+close(fd);
 return (0);
 }
 letterstwo = write(STDOUT_FILENO, text, letterstwo);
