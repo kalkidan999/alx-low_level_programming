@@ -14,10 +14,7 @@ if (!filename)
 return (0);
 text = malloc(sizeof(char) * letters + 1);
 if (text == NULL)
-{
-free(text);
 return (0);
-}
 fd = open(filename, O_RDONLY);
 if (fd == -1)
 {
