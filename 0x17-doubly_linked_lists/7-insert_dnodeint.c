@@ -47,7 +47,7 @@ unsigned int len_node(dlistint_t **node)
 {
 unsigned int len = 0;
 dlistint_t *src;
-start = *node;
+src = *node;
 while (src != NULL)
 {
 len += 1;
