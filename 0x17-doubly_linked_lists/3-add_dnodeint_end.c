@@ -19,12 +19,12 @@ temp->prev = NULL;
 *head = temp;
 return (temp);
 }
-while (start->next)
+while (src->next)
 {
-start = start->next;
+src = src->next;
 }
-start->next = temp;
-temp->prev = start;
+src->next = temp;
+temp->prev = src;
 temp->next = NULL;
 temp->n = n;
 return (temp);
