@@ -13,9 +13,5 @@ for (i = 0; head != NULL; i++)
 sum += head->n;
 head = head->next;
 }
-if (i < index)
-{
-return (NULL);
-}
 return (sum);
 }
