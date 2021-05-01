@@ -11,7 +11,7 @@ dlistint_t *temp, *src;
 temp = malloc(sizeof(dlistint_t));
 if (temp == NULL)
 return (NULL);
-if (head == NULL)
+if (*head == NULL)
 {
 temp->next = NULL;
 temp->n = n;
