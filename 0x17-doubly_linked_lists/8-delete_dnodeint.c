@@ -32,7 +32,7 @@ if (len - 1 == index)
 {
 src->prev->next = NULL;
 free(src);
-return (1)
+return (1);
 }
 src->prev->next = src->next;
 src->next->prev = src->prev;
