@@ -19,4 +19,5 @@ if (table->array == NULL)
 {
 return (NULL);
 }
+return (table);
 }
