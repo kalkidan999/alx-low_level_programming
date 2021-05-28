@@ -46,7 +46,7 @@ if (node->value == NULL)
 {
 return (0);
 }
-node->next = ht->array [index];
+node->next = ht->array[index];
 ht->array[index] = node;
 return (1);
 }
