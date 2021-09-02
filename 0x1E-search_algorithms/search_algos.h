@@ -2,7 +2,7 @@
 #define _SEARCH_ALX_
 
 /** HEADERS */
-
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 /** Prototype */
